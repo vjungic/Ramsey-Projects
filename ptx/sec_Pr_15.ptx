@@ -1,0 +1,343 @@
+<chapter xml:id="sec_Pr_15">
+<title>Tom Brown's Wikipage</title>
+
+<introduction>
+<title>Project by:  <em>Pranjal Keshari</em>, <em>Jimmy Mei</em>, <em>Sebastian Mora</em>, and  <em>Kyle Singh</em></title>
+
+<p></p>
+<p><m>\textbf{Summary:}</m> Our team has decided to create a Wikipedia page about a notable Ramsey theorist for our semester project. </p>
+<p>More specifically, we have chosen Professor Thomas Brown of SFU. </p>
+<p>On Professor Brown's page, he says, <q>I am mostly interested in questions related to van der Waerden's theorem on arithmetic progressions,</q> which states that  <q>for each <m>k</m>, there exists a (smallest) <m>n = n(k)</m> such that whenever <m>[1, 2, \ldots , n]</m> is partitioned into two parts, in any way whatsoever, then at least one of these parts must contain a <m>k</m>-term arithmetic progression.</q>
+</p>
+<p>
+Professor Brown is a known Ramsey theorist. In fact, in analyzing the papers he has worked on, we found that he has an Erd&#337;s number of 1 (meaning he has collaborated directly with Paul Erd&#337;s himself, specifically on the papers <q>Quasi-Progressions and Descending Waves</q> and <q>Quantitative Forms of a Theorem of Hilbert</q>). </p>
+<p>
+We have learned a few things throughout working on this project.
+</p>
+<p> We came to realize that for this project, effective communication is essential in doing this. We all have ideas and deadlines we want to meet, as well as varying schedules. So, communication of these things has been key in progressing. 
+</p>
+<p>We have also learned that this will be a project we need to get ahead of quickly. </p>
+<p>
+We came to learn recently that in creating a Wikipedia page, the page must be done all at once, and not at various times like we once thought; therefore, we needed to have all our sections done before actually creating the page. In addition, the page needed to be done and submitted fairly quickly due to Wikipedia's evaluation process. </p>
+<p>As we have now learned, after the submission of the page, the page was reviewed by a group of Wikipedia editors. Luckily, this process was completed much faster than we expected and Professor Brown's page was published before our class ended .
+
+
+</p>
+
+<p></p>
+
+<sidebyside widths="10% 45% 45%">
+ <p></p>
+   
+<figure>
+<caption>Link:  <url href="https://en.wikipedia.org/wiki/Tom_Brown_(mathematician)">Tom Brown's Wiki page</url></caption>
+<image source ="images/Brown.png"/>
+</figure>
+ <p>Link:  <url href="https://en.wikipedia.org/wiki/Tom_Brown_(mathematician)">Tom Brown's Wiki page</url></p>
+</sidebyside>
+<p>
+</p>
+</introduction>
+<section>
+<title>Interview with Professor Tom Brown</title>
+<p></p>
+<p><m>\textbf{Note:}</m>. This interview was conducted in November 2020 as part of group's work on Professor Brown's wiki page.</p>
+<p> </p>
+<p><em>What is your full name?</em></p>
+<blockquote>
+<p>Thomas Craig Brown</p>
+</blockquote>
+
+<p><em>What made you interested in mathematics?</em></p>
+<blockquote>
+<p>Probably it was the difficulty I had with math in grade 3. Currently, I think
+there are three main reasons I like math. One, it's beautiful. Two, it <q>exists</q>
+independent of the physical world and independent of humanity - at least, that's
+what many or most mathematicians like to believe. Three, it's thrilling to
+discover something <q>new</q> in this invisible world.</p>
+</blockquote>
+
+<p><em>Do you have interest in other fields?</em></p>
+<blockquote>
+<p>I do read lots of books on evolution, but nothing very technical. Same, to a
+lesser degree, in astronomy. What I read most of all, though, are novels, mostly
+modern, and particularly American and Canadian. </p>
+<p>In grade school I read every
+book in the (pretty small) school library. In high school, I read all of the ancient
+Greek plays by Aeschylus, Sophocles, Euripides, Aristophanes, and quite a few
+19th century Russian novels, which is why I studied Russian and (ancient) Greek
+in college. </p>
+<p>I translated the book <q>Foundations of Linear Algebra</q> by A. I.
+Mal'cev (1956) from Russian to English during the summer of 1961. It was
+published by W. H. Freeman in 1963, but I think it sold very few copies.</p>
+</blockquote>
+
+<p><em>What about Ramsey Theory interests you?</em></p>
+<blockquote>
+<p>van der Waerden's theorem on arithmetic progressions is a good example.
+I think it's very surprising that it's impossible to colour the positive integers with
+two colours (or any finite number of at least two colours) in such a way that every
+arithmetic progression of 50 billion terms gets at least two colours. </p>
+<p>This idea, that inside every sufficiently large disorderly looking structure is an orderly structure
+of arbitrary size, is very appealing - why it's appealing, I really don't know. </p>
+<p>
+As an undergraduate I acquired the book <q>Three Pearls of Number Theory</q> by A. Y.
+Khinchin (which contains a proof of van der Waerden's theorem) and was very
+impressed by the introduction. (It's still available at Amazon.ca for 9.25 CAD!)
+</p>
+<p>
+The fact that many results in Ramsey theory are not only easy to
+understand, but in addition have elementary proofs, is very attractive: one
+doesn't need to master a vast field of knowledge in order to try to solve a new
+problem in Ramsey theory. There may be an elementary solution just around the
+corner.
+</p>
+</blockquote>
+
+<p><em>How would you explain the concept of Ramsey Theory to someone who has never
+heard of it before?</em></p>
+<blockquote>
+<p>It's definitely not easy. Usually I try to describe either van der Waerden's
+theorem or the finite Ramsey theorem for graphs. (I'm inclined to think that just
+explaining the meaning of <q><m>R(3,3) = 6</m></q> is a good thing to try.)</p>
+</blockquote>
+
+<p><em>What awards have you won?</em></p>
+<blockquote>
+<p>100 USD from Erd&#337;s (shared with Allen Freedman) for (jointly) solving one of
+Erd&#337;s's problems. </p>
+<p>Here's what we showed: Let <m>f(n, k)</m> be the minimum size of
+any subset <m>B</m> of <m>[1, n]</m> such that <m>B</m> meets all of the <m>k</m>-term arithmetic progressions
+contained in <m>[1, n]</m>. Then <m>f(n, n^e) \lt Cn^{1-e}</m> (where <m>e \gt 0</m> and <m>C</m> depends on <m>e</m>)
+and <m>f(n, log n) = o(n)</m>. See <q>Small Sets Which Meet All the <m>k(n)</m>-Term Arithmetic
+Progressions in the Interval <m>[1, n]</m>,</q> Tom C. Brown and Allen R. Freedman, J.
+Combin. Theory Series A 51 (1989), 244 - 249.</p>
+</blockquote>
+
+<p><em>What was it like working with Paul Erd&#337;s? How did working with him influence you?</em></p>
+<blockquote>
+<p>Talking with Erd&#337;s, or just overhearing him talking with others, was
+always exciting and even exhilarating. At any big math meeting, if he was
+talking to one or two people, there would be 6 or 8 people trying to listen in, or
+trying to ask him a question.
+</p>
+<p>
+His memory was phenomenal. Here are three examples.
+</p>
+<ol>
+<li>
+<p> Once, talking about a result of mine which I thought was new, he
+simply remarked that he had written a related paper which had appeared in 1938
+in such and such a journal. (When I found this paper later, it turned out he had
+done everything I had done, and more, in a better way.)
+</p>
+</li>
+<li>
+<p> I asked him once in the 80s whether he had ever talked at Reed
+College. He immediately said something like ?yes, in April 1955, and I talked
+about such and such, and had an interesting conversation with so and so.?
+</p>
+</li>
+<li>
+<p>He first met my wife at a math meeting in Israel. (He eventually stayed
+with us on two occasions for a few days each, during visits to Vancouver.) She
+had injured her ankle badly in Cairo the week before. When she next met him,
+two or three years later, the first thing he said was <q>How is your ankle now?</q>
+</p>
+</li>
+</ol>
+<p>He would often talk while walking. Once at Kitsilano beach he was
+talking to me and walking, not looking and not noticing where he was going,
+and he led me right through the middle of a volleyball game. (The players
+graciously just waited for us to pass by.) 
+</p>
+<p>Allen Freedman and I once spent a lot
+of time with him at a meeting in Chicago. Walking down the street with him was
+sometimes alarming - he seemed not to notice the traffic dangers around him.
+</p>
+<p>
+It was hard to keep up with him when trying to solve a problem. He
+would propose an approach, and quickly develop it, and quickly decide it
+wouldn't work, drop it, and start on a completely different approach. I would
+still be trying to grasp his first approach, and he would be half-way to discarding
+his second approach. </p>
+<p>
+From him I learned that it was dangerous to become
+attached to a certain approach merely because you had invested a lot of time and
+energy in it. His ability to develop new ideas and then just drop them to try
+other new ideas was simply dazzling.
+</p>
+<p>(The best book on Erd&#337;s, in my opinion, is <q>The Man Who Loved Only
+Numbers</q> by Paul Hoffman. Ron Graham and Fan Chung also appear in this
+book.)
+</p>
+<p>Conversations with Ron Graham were very different. Ron was very
+patient, and was always concerned that you understood what he was saying. If
+you didn't, he would explain it in a different way. </p>
+<p>Like Erd&#337;s, he was unbelievably quick. I had a conversation with him once in Victoria, and told him
+about a result I had found after weeks or maybe months of work. The next day
+he flew to California; in two hours on the plane he had gone far far beyond me.
+</p>
+<p>
+Ron's lectures to a general audience were always extraordinarily clear, and
+at the same time full of delight.</p>
+</blockquote>
+
+<p><em>What piece of research have you done that you feel is the most impactful/influential?</em></p>
+<blockquote>
+<p>About 1963, while a graduate student, I showed that if the positive integers
+are finitely coloured, then some colour class is piece-wise syndetic. (I promptly forgot
+about this result, and didn?t remember it until 3 years later when I needed it.)
+</p>
+<p>
+This turned out later to be a useful fact, and is often called <q>Brown?s Lemma,</q>
+especially in the semigroup literature. (See T. C Brown, <q>On van der Waerden's
+theorem on arithmetic progressions,</q> AMS Notices 16 (1969), 245, or <q>An
+Interesting Combinatorial Method in the Theory of Locally Finite Semigroups,</q>
+Pacific J. Math. 36 (1971), 285-289. The latter paper has been cited about 100
+times.) 
+</p>
+<p>Neil Hindman discovered this <q>partition regularity of piece-wise syndetic
+sets</q> independently in 1973. In his book (with Dona Strauss) <q>Algebra in the
+Stone-&#268;ech Compactification</q> he has a wonderful one-line proof. (This
+remarkable book is downloadable from the SFU library.)</p>
+<p>
+Another often cited paper was T. C. Brown, Joe. P. Buhler, <q>A Density
+Version of a Geometric Ramsey Theorem,</q> J. Combin. Theory Series A 32 (1982),
+20-34. This paper was described in the <q>Added in Proof</q> section of Erd&#337;s and
+Graham's classic book <q>Old and New problems and Results in Combinatorial
+Number Theory,</q> L'Enseignement Math&#233;matique, Universit&#233; de Gen&#232;ve, 1980, as
+giving <q><m>\ldots</m> a bit more evidence for the truth of the density Hales-Jewett theorem.</q>
+</p>
+<p>
+The paper T. C. Brown, <q>Is there a sequence on four symbols in which no
+two adjacent segments are permutations of each other?</q> Amer. Math. Monthly 78
+(1971), 886-888, publicized a question finally solved in 1992 by V. Ker&#228;nen.
+</p>
+<p>
+Another often cited paper (about 100 times) was T. C. Brown,
+<q>Descriptions of the characteristic sequence of an irrational,</q> Canad. Math. Bull.
+36 (1993), 15-21.
+</p>
+<p>
+A problem raised in the paper T. C. Brown, A. R. Freedman, <q>Arithmetic
+Progressions in Lacunary Sets,</q> Rocky Mountain J. Math. 17 (1987), 587-596, was
+stated as a problem in 1994, 2000, 2008, 2012, 2012 by five different (sets of)
+authors without mentioning the Brown-Freedman 1987 paper. It's odd that two
+of those five sets of authors included myself! </p>
+<p>The problem, still unsolved, is the
+following: Does there exist an infinite sequence on a finite set of positive integers
+such that there do not exist two adjacent blocks having equal lengths and equal
+sums? (The best partial result is that there need not exist three adjacent blocks
+with equal lengths and equal sums.)</p>
+</blockquote>
+
+<p><em>Is there a result in Ramsey theory that in your opinion ought to be more widely
+known, or at least more widely mentioned?</em></p>
+<blockquote>
+<p>Yes! In the paper by Felix Behrend, <q>On sequences of integers containing
+no arithmetic progression,</q> Casopis Mat. Fys. Praha (Cast Mat.) 67 (1938),
+235-239, is the following result: If Szemer&#233;di's theorem is false for a given <m>k</m> then
+there exist pairs <m>(n, A)</m> such that <m>A</m> is a subset of <m>\{1,2,3, \ldots n\}</m> which contains no <m>k</m>-term
+arithmetic progression, <m>n</m> is arbitrarily large, and the density of <m>A</m> in <m>\{1, 2, 3,
+\ldots, n\}</m> (that is, the quantity <m>\frac{|A|}{n}</m>) is arbitrarily close to 1. </p>
+<p>This implies that
+while van der Waerden's theorem can be stated: <q>For all <m>k</m>, there exists <m>n</m> such
+that if <m>\{1, 2, 3, \ldots , n\} = A \cup B</m>, then <m>A</m> or<m> B</m> contains a <m>k</m>-term arithmetic
+progression,</q> Szemer&#233;di's theorem can be stated: <q>For all <m>k</m>, there exists <m>n</m> such
+that if <m>\{1 ,2, 3, \ldots, n\} = A \cup B</m>, and <m>|B| \geq |A|</m>, then <m>B</m> contains a <m>k</m>-term
+arithmetic progression.</q>
+</p>
+<p> Or: Using Behrend's theorem, Szemer&#233;di's theorem is
+equivalent to the statement: Let <m>k</m> be given. Then there exists <m>n</m> such that if <m>A</m> is a
+subset of <m>\{1, 2, 3, \ldots , n\}</m> with <m>\frac{|A|}{n} \gt .9999</m>, then <m>A</m> must contain a <m>k</m>-term
+arithmetic progression. (One might expect that this would be easier to prove
+than the corresponding statement with <m>.9999</m> replaced by an arbitrarily small
+positive constant. Perhaps it's surprising that it isn't!) </p>
+<p>I find it odd that I've never seen Behrend's result mentioned in standard works on Ramsey theory.
+</p>
+</blockquote>
+
+<p><em>Is there a theory or idea that has not been proved that you hope to prove in your life?
+Which ones and why?</em></p>
+<blockquote>
+<p>No, but 35 or 40 years ago, I spent about three years trying hard to prove the
+density version of the Hales-Jewett theorem. When I quit trying, it was such a
+relief!! It was like finally getting rid of a piece of furniture - an unused grand
+piano, maybe - which had filled up the whole living room!</p>
+</blockquote>
+
+<p><em>Would you mind sharing a little bit about yourself growing up?</em></p>
+<blockquote>
+<p>My father (whose mother was German and immigrated to the US with her
+family in the 1890s) was born in 1905 in a logging camp on the Columbia River in
+Oregon, not far from Portland. My mother (whose father was Dutch and
+immigrated to the US at age 15 about 1900), was born in 1909 in a small town in
+southern Wyoming.
+</p>
+<p>
+I was born in 1938 in Portland. Shortly after the end of WW2, my family
+moved to Beaverton, a small town (then) in the country about an hours' drive
+from Portland, where I entered a two-room school in 3rd grade. (The principal
+was also the janitor and the school-bus driver!) My new class had already
+mastered subtraction (of one digit numbers), which I found completely baffling.
+</p>
+<p>My 3rd grade teacher (who also taught grades 1, 2, and 4 in the same room!)
+patiently spent hours with me helping me to catch up - without her, I would
+never have become a mathematician.
+</p>
+<p>
+In high school, the math teacher was the coolest teacher in the school. In
+the 12th grade, I realized I really liked math and was good at it. However, in
+high school I spent most of my time playing the trumpet, and considered a career
+(as a performer) in music. I graduated in 1956.
+</p>
+<p>
+I was given a 4-year <q>General Motors scholarship</q> which could be used at
+any college or university in the US. I chose the California Institute of Technology,
+because of an article I read in Time magazine. After one year I transferred
+(because of limited course offerings at Caltech) to Reed College in Portland,
+where I took Russian, ancient Greek, philosophy, music, psychology, <m>\ldots</m>
+</p>
+<p>
+Because the USSR had launched Sputnik in 1957, the US poured millions
+into higher education, and I had an NDEA (National Defence Education Act)
+Fellowship good for 3 years of graduate study. I chose Washington University in
+St. Louis, Missouri because a math student one year ahead of me told me how
+much he liked his classes there.
+</p>
+<p>
+With my new Ph. D, in 1964 I took a 1-year appointment as an instructor at
+Reed College. At Reed, I learned of a US - USSR exchange program (it involved
+only about 25 US students and 25 USSR students), and I spent the next academic
+year at Kiev State University.
+</p>
+<p>
+While in Kiev, I learned (from a Canadian student) of the existence of
+Simon Fraser (which had opened in 1965) and applied for a job there, and spent
+1966 - 2003 at SFU. (Except for 3 non-consecutive full years when I took leaves of
+absence from SFU and taught at the Bosphorus University in Istanbul; there were
+other research semesters or sabbaticals which I spent in Cairo, Nairobi, various
+places in Europe, and Turkey.)
+</p>
+<p>
+In the early 70s, I saw Ron Graham juggling at a math meeting, and from
+then on I received occasional lessons from him. Learning to juggle 3 balls is
+about as hard as learning to ride a bicycle, and you never lose this ability. Five
+balls is a different story. Once with Ron we stood side-by-side, facing the same
+direction, and with my right hand and Ron's left hand, acted like a single person
+juggling 5 balls. Eventually I could juggle five balls for 10 seconds or so (about
+40 throws). Currently I'm trying to revive this ability.
+</p>
+</blockquote>
+
+<p><em>Is there any extra information you want to give that you feel is important or
+noteworthy about yourself or Ramsey Theory? Feel free to include any links to anything
+you feel is important.</em></p>
+<blockquote>
+<p>Ron Graham died on July 6, 2020, sad news to everyone who knew him or
+knew of him.</p>
+</blockquote>
+
+</section>
+</chapter>

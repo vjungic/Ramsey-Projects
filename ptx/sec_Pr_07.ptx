@@ -1,0 +1,36 @@
+<chapter xml:id="sec_Pr_07">
+<title><q>Deadly-Trio</q> -  A Ramsey's Game</title>
+
+
+<introduction>
+<title>Project by:  <em>Abhijit Kaur</em>, <em>Shubham Shubham</em>, and  <em>Harnoor Singh</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> Goal: The special case of Ramsey theorem states that when we use two-colours to colour the edges in <m>K_6</m>, any edge colouring of it would yield a monochromatic triangle.</p>
+
+<p>The name <q>Deadly-Trio</q> represents the monochromatic triangle. The main idea is to use this fact to develop a 2-player game that consists of three different levels which represents Easy, Medium and Hard modes. Each player will have their own unique colour and on their turn, they have to draw a line between two vertices. According to Ramsey's theorem as <m>R(3,3) = 6</m>, thus any edge colouring of <m>K_6</m> (easy mode) would yield a monochromatic triangle. Similarly, in <m>K_8</m> (medium mode) and <m>K_{10}</m> (hard mode) two-colouring would yield a monochromatic triangle as well because 2-colouring of any number of vertices more than 6 would yield a monochromatic <m>K_3</m>. The person who will complete a monochromatic triangle loses the game.
+
+</p>
+
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Deadly-trio-1" youtube="oFAJifb1HIs"/> 
+ <p></p>
+</sidebyside>
+
+<p>
+</p>
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Deadly-trio-2" youtube="Up4XvrySJl8"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+<p><m>\textbf{Links:}</m>  Here is the link with the <url href="https://deadly-trio.herokuapp.com//">GAME</url>.</p>
+ 
+<p>Here is the link with the <url href="https://github.com/harnoors/Game-math303">GitHub repository</url>.</p>
+  
+</chapter>

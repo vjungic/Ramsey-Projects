@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+<macros>
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\newcommand{\Quo}{\textbf{Quote.~}}
+\newcommand{\Com}{\textbf{Comic.~}}
+\newcommand{\Def}{\textbf{Definition.~}}
+\newcommand{\Exm}{\textbf{Example.~}}
+\newcommand{\Rem}{\textbf{Reminder.~}}
+\newcommand{\Hmk}{\textbf{Homework.~}}
+\newcommand{\Nota}{\textbf{Notation.~}}
+\newcommand{\ds}{\displaystyle}
+\def\aa{\textbf{a}}
+\def\bb{\textbf{b}}
+\def\cc{\textbf{c}}
+\def\dd{\textbf{d}}
+\def\xx{\textbf{x}}
+\def\zv{\textbf{0}}
+\def\rr{\textbf{r}}
+\def\vv{\textbf{v}}
+\def\xx{\textbf{x}}
+\def\qq{\textbf{q}}
+\def\rr{\textbf{r}}
+\def\vv{\textbf{v}}
+\def\xx{\textbf{x}}
+\def\yy{\textbf{y}}
+\def\qq{\textbf{q}}
+\def\pp{\textbf{p}}
+\def\eee{\textbf{e}}
+\def\ii{\textbf{i}}
+\def\jj{\textbf{j}}
+\def\kk{\textbf{k}}
+\def\nn{\textbf{n}}
+\newcommand{\twovec}[2]{\left[\begin{array}{c}
+#1\\ #2 \end{array}\right] }
+\newcommand{\threevec}[3]{\left[\begin{array}{c}
+#1\\ #2\\ #3 \end{array}\right] }
+\def\R{\mathbb{ R}}
+\def\S{\mathbb{ S}}
+\def\I{\mathbb{ I}}
+</macros>
+<latex-image-preamble>
+\usepackage{tikz}
+\usepackage{tkz-graph}
+\usepackage{tkz-euclide}
+\usetikzlibrary{patterns}
+\usetikzlibrary{fit,positioning}
+\usetikzlibrary{matrix,arrows}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+\usetikzlibrary{through,intersections,decorations,shadows,fadings}
+\usepackage{pgfplots}
+\usepackage{newtxtext} 
+\usepackage{newtxmath} 
+\usetikzlibrary{positioning,fit,shapes.geometric,backgrounds}   
+\usepackage{scalerel,amssymb,stmaryrd}  
+ \usetikzlibrary{fit}
+ \usetikzlibrary{decorations.markings}
+ \usetikzlibrary{arrows.meta}
+ \usetikzlibrary{quotes,arrows.meta}
+ \usetikzlibrary{calc}
+ \usetikzlibrary{intersections,calc}
+ \usetikzlibrary{shapes}
+</latex-image-preamble>
+<rename element="inlineexercise">Exercise</rename>
+<brandlogo url="http://www.sfu.ca/~vjungic/" source="images/frank-ramsey-A.png"/> 
+
+  </docinfo>
+  <book>
+    <title>Introduction to Ramsey Theory</title>
+     <subtitle>Fall 2020 Students' Projects
+    </subtitle>
+    <frontmatter>
+      <titlepage>
+        <author>
+          <personname>Veselin Jungic</personname>
+          <department>Department of Mathematics </department>
+            <institution>Simon Fraser University</institution>
+        </author>
+      </titlepage>
+      <colophon xml:id="front-colophon">
+
+        <credit>
+            <role>Production Editor</role>
+            <entity>Veselin Jungic</entity>
+        </credit>
+
+        <!--<edition>Second Edition</edition>-->
+
+       <!-- <website>
+            <name><c>abstract.pugetsound.edu</c></name>
+            <address>http://abstract.pugetsound.edu</address>
+        </website>-->
+
+        <copyright>
+           <year>2020-<ndash />2020</year>
+            <holder>Veselin Jungic</holder>
+            <shortlicense>This work is licensed under the Creative Commons Attribution-NonCommercialShareAlike 4.0 International License. You can view a copy of the license at <url href="http://creativecommons.org/licenses/by-nc-sa/4.0">http://creativecommons.org/licenses/by-nc-sa/4.0/</url>.
+            </shortlicense>
+                    </copyright>
+    </colophon>
+    <dedication xml:id="dedication">
+        <p>
+            <line><em>To my sons, my best teachers.</em> - Veselin Jungic</line>
+        </p>
+    </dedication>
+    <acknowledgement xml:id="acknowledgement">
+    <p />
+        <p>
+    I am grateful to Professor Tom Brown and Mr. Kevin Halasz for their support and overall help with the course term projects.
+  </p>
+               
+  <p>
+ I am particularly thankful to Dr. Sean Fitzpatrick for inspiring and encouraging me to use PreTeXt.
+  </p>
+  <p>
+Most importantly, I am thankful to all of my Math 303 and LIB 225 students who helped me realize that the joy of teaching may override all of the challenges caused by the global pandemic.
+  </p>
+  <p>
+  Veselin Jungic
+  </p>
+    </acknowledgement>
+    
+     <preface xml:id="preface">
+  <p>
+   This collection contains 20 term projects completed by students enrolled in the course Math 303 - Mathematical Journeys III offered by the Department of Mathematics, Simon Fraser University. The calendar description of the course is as follows:
+   </p>
+   
+   <blockquote>
+   <p>A focused exploration of a special topic (varying from term to term) that builds on mathematical ideas from lower division courses and provides further challenges in quantitative and deductive reasoning. Each Journeys course is designed to appeal particularly to mathematics minor students and others with a broad interest in mathematics. </p>
+   </blockquote>
+   
+   <p> In the fall 2020 semester the topic of the course was <q>Ramsey Theory: Complete Chaos is Impossible</q>. The main goal of the course was to give students a very gentle introduction to the basic ideas and problems in Ramsey theory, their history and their place in contemporary mathematics. The only real pre-requisites to fully grasp the material presented in this course was to know how to read and write and to possess a certain level of mathematical common sense.
+ </p>
+  <p>
+    My wish was to give to my students both challenging and enjoyable experiences in learning some of the basic facts about Ramsey theory.
+  </p>
+  <p>
+   The purpose of the term-project was to give each student an opportunity to understand a segment of Ramsey theory in a deeper way by working on a Ramsey theory related theme in a group setting.
+</p>
+<p>
+My expectations included the following:</p>
+<ul>
+<li>
+<p>that every student would wholeheartedly participate in the chosen project;
+</p>
+</li>
+<li>
+<p>that each student would understand and know the Ramsey theory part of the project to the best of their abilities;
+</p>
+</li>
+<li>
+<p>that each student would relish their imagination and use their familiarity with the contemporary technology and both high-  and pop-culture to create a product that they would be proud of for years to come.</p>
+</li>
+</ul>
+<p>
+My advice to the class was: <q>The more you are sincerely curious about your project, the more enjoyable it will be for you, and the better your final product will be.</q>
+  </p>
+  <p>It should be mentioned that because of the global pandemic this class was offered online. This meant that only a few groups of students were able to physically get together. The majority of the groups collaborated across multiple time zones.
+  </p>  
+  <p>I am happy to report that all projects were completed on time. In my opinion each of the projects is an excellent example both how much talent there is among this generation of students and how mathematics can trigger students' creativity in sometimes unpredictable ways.
+  </p>
+  <p>Finally, the diversity of the presented projects reflects the diversity of students' academic backgrounds, their levels of mathematical knowledge, and their plans for their future careers. Still, all students shared their joy of doing mathematics.
+  </p>
+     <p>
+    The final project in this collection is an essay by a student who was enrolled in a 4-week long non-credit course that I taught in SFU's Liberal Arts and 55+ Program in October 2020. The title of the course was <q>LIB 225 - Ramsey Theory: Complete Chaos is Impossible</q>.
+  </p>
+  <p>
+    Veselin Jungic
+  </p>
+  <p>
+    Math 303 and LIB 225 Instructor  
+    </p>
+  <p>
+    Department of Mathematics, Simon Fraser University
+  </p>
+  <p>
+    Contact address: vjungic@sfu.ca
+  </p>
+  <p>
+    In Burnaby, B.C., December 2020
+  </p>
+</preface>
+    </frontmatter>
+     <xi:include  href="sec_Pr_01.ptx"/>
+ <xi:include  href="sec_Pr_02.ptx"/> 
+ <xi:include  href="sec_Pr_03.ptx"/>
+ <xi:include  href="sec_Pr_04.ptx"/>
+ <xi:include  href="sec_Pr_05.ptx"/>
+ <xi:include  href="sec_Pr_06.ptx"/>
+ <xi:include  href="sec_Pr_07.ptx"/>
+ <xi:include  href="sec_Pr_08.ptx"/>
+<xi:include  href="sec_Pr_09.ptx"/>
+ <xi:include  href="sec_Pr_10.ptx"/>
+ <xi:include  href="sec_Pr_11.ptx"/>
+ <xi:include  href="sec_Pr_12.ptx"/>
+ <xi:include  href="sec_Pr_13.ptx"/>
+ <xi:include  href="sec_Pr_14.ptx"/>
+ <xi:include  href="sec_Pr_15.ptx"/>
+ <xi:include  href="sec_Pr_16.ptx"/>
+ <xi:include  href="sec_Pr_17.ptx"/>
+ <xi:include  href="sec_Pr_18.ptx"/>
+ <xi:include  href="sec_Pr_19.ptx"/>
+ <xi:include  href="sec_Pr_20.ptx"/>
+  <xi:include  href="sec_Pr_21.ptx"/>
+  
+   </book> 
+</pretext>

@@ -1,0 +1,27 @@
+<chapter xml:id="sec_Pr_17">
+<title>Animation of the Proof of van der Waerden's Theorem</title>
+
+<introduction>
+<title>Project by:  <em>Shresth Kapila</em> and  <em>Karan Pathania</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> Our project was creating an animated video using MANIM (Mathematical ANIMation Engine) to present a proof of van der Waerden's theorem so as to build an intuition of the steps involved. We give a brief introduction to his life and then give a formal proof to the theorem using double induction, as discussed in class.</p>
+
+<p>Initially, while discussing Bartel van der Waerden's theorem - considered as <q>one of the most elegant pieces of mathematics ever produced</q> (de Brujin, 1978) - in class, we had some difficulties visualizing the proof in our heads. Even though the lecture notes go into great depth and explain the proof by means of helpful imaginary, it might take someone like us a while before the beauty of the proof reveals itself before the reader's eyes. .</p>
+<p>
+Hence, we tried to look for online resources like videos or animations which might help us get an intuitive understanding of the proof. However the only animated video we could find was an interview of Fields Medallist Sir Timothy Gowers on Numberphile's YouTube channel. In the interview, Sir Gowers gives a very neat overview of the general idea behind the proof and the video is augmented by some fine animations..</p>
+<p>
+Even thought it helped us clear any doubts, we decided to take this opportunity to (hopefully) give back to the mathematical community by creating a short animated video giving a formal proof of the theorem</p>
+
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="vdWProof" youtube="eLxz1hxaV2w"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+
+
+</chapter>

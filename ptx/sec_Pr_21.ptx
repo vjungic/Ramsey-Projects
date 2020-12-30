@@ -1,0 +1,81 @@
+<chapter xml:id="sec_Pr_21">
+<title>Ramsey Theory: <q>Complete Chaos Is Impossible</q> Course Essay</title>
+
+<introduction>
+<title>Project by:  <em>Jim Miller</em></title>
+</introduction>
+<p></p>
+<p><q><m>\textbf{From fun to scary and back again!:}</m></q></p>
+
+<p><m>\textbf{Preamble:}</m></p>
+<p>
+This course on Ramsey Theory and Chaos sounded like fun<m>\ldots</m> we'd learn all about weather patterns, or the arrangement of stars in the sky and other chaotic systems. But after Class &#35;1 I was scared: <q>What have I signed up for?!</q> The math was way over my head because, after all, I hadn't taken a math course since Grade 12 over 50 years ago! Further, among my classmates there clearly were a few mathematicians<m>\ldots</m> some trying to show just how smart they were leaving me all the more nervous. Nevertheless, I persevered and after the 4 classes, and then sitting in on 2 of the 4 Class presentations, it all became fun again. And more than just fun<m>\ldots</m> thought provoking. Indeed, the course prompted me to ponder problems and possibilities in a way I never had before and that was quite liberating. My essay will speak to some of those thought processes and inspirations perhaps more than the hard math behind it.
+</p>
+<p><m>\textbf{Math Is Fun After All!:}</m></p>
+<p>
+Initially there were some fun problems to visualize and work out utilizing pigeons, pigeon holes and colours such as: How many socks<m>\ldots</m> or marbles, or coin flips, dinner guests, etc. One came up:</p>
+<blockquote>
+<p>After removing two opposite corners of a standard chess board can you arrange 31 B &#38; W dominoes to fill all the spaces?</p>
+</blockquote>
+<p>
+In about 8 seconds I offered up, with a sense of vindication, <q>No, it is impossible</q>. Why is that? <q>Because the two opposite corners were both white so no matter how well you positioned the first 30 tiles, for the 31st you would need a Double White to fulfill the condition, so it can?t be done.</q></p>
+
+<p>Then another problem:</p>
+<blockquote> 
+<p>You have 8 numbers 1 - 8; prove that if you draw 5 different numbers at random you must have 2 that added together total 9. </p>
+</blockquote>
+<p>This one took about 11 seconds<m>\ldots</m> assume the first 4 drawn are 1, 2, 3 and 4. Then no matter what you draw as the 5th number (5, 6, 7 or 8) it will pair up with a previous number to total 9. Or said differently, in any 5 numbers there MUST be at least one <m>1/8, 2/7, 3/6</m> or <m>4/5</m> combination.
+</p>
+<p>In both instances I was operating 100&#37; on Logic and not at all on Math per se. But then we translated that Logic back to Pigeon Hole Theory and a mathematical proof such that a light went on for me<m>\ldots</m> How simple; How elegant! 
+</p>
+<p>I had a flashback to High School physics where a test provided some initial parameters<m>\ldots</m> the speed of light, the value of <m>\pi</m>, the circumference of the earth, etc. And there was this short question: <q>How high off the earth do you need to be to see a point 100 miles away?</q> What! You got to be kidding me! But after thinking a while I used the earth?s circumference to determine the radius and with sine and cosine the answer fell into place. I felt so proud. I forgot all about that moment 50+ years ago until we did the chessboard!
+</p>
+
+<p><m>\textbf{Are Mathematicians Atheists?}</m></p>
+
+<p>Searching the web for more information on Ramsey Theory I stumbled across <q>The Mandelbrot Set</q> (essentially an infinite feedback loop) and it was described as <q>The Thumbprint of God</q>. But I also came across the assertion that <q>Amazingly complex systems can start to self-organize without any outside influence</q>. In other words, Design does not need a Designer (i.e. - a Creator/God). As a mindgame I contemplated having two panels of 5 mathematicians each out to prove or disprove the existence of God. Interestingly, both teams might have as the first tool in their tool chest the perfection and purity of numbers. 
+</p>
+<p>
+What does this have to do with Ramsey Theory?
+</p>
+<p>Well, I was impressed with how complex problems were stripped down to their essentials, painted red or blue and put into their proper pigeon hole. Ramsey Theory provided the simple framework from which massive problems could be tackled. And when solutions/proofs are arrived at are you seeing the Thumbprint of God or the intrinsic Perfection of Numbers?
+</p>
+<p>
+I boggled at the notion that for <m>R(5,7)</m> the number has been proven to exist but nobody has figured it out for 80 years, nor have computers that are capable of doing billions <m>\ldots</m> correction, trillions of calculations per second! I can't fathom how a problem could become so complex! I tried to translate <m>R(5,7)</m> to one of our class dinner party problems. I glanced up to my piano and saw an octave has 5 black keys and 7 white keys. So I got to wondering <m>\ldots</m> is this analogous to where you have 12 dinner guests seated at a party and you want to know what the Ramsey number is where either 5 guests know each other (a black key pentagon) or 7 don't (a white key heptagon)? I doubt I have framed it correctly (if I did it was dumb luck) but at least I was seeing how Ramsey Theory could be used as the framework to solve massively complex problems with trillions of combinations!
+</p>
+<p>
+My mind further wandered to Einstein. I envision 6 chalkboards full of equations<m>\ldots</m>  and more and more reductive equations, until they eventually distill down to an elegant <m>E = MC^2</m>. And from that simple framework much of 20th Century Physics and Cosmology was built. That?s what Ramsey did<m>\ldots</m> he provided a simple framework which can be expanded limitlessly.
+</p>
+<p>
+So coming full-circle back to the God debate <m>\ldots</m> what panel side would Einstein have taken? How about Ramsey? I see him as the <q>Mozart of Math</q> <m>\ldots</m>dead at 26, what a shame; his potential was <q>Newtonian</q>, for lack of a better term! At least Mozart made it to 35!
+</p>
+
+<p><m>\textbf{Musings On Class Presentations &#35;2 and &#35;4.}</m></p>
+<p>
+You invited me to sit in on your class presentations promising <q>They will be fun!</q></p>
+<p>I could only make Class &#35;2 (Dec. 2nd) and &#35;4 (Dec. 7th) and they sure lived up to the promise! 
+</p>
+<p>Class 2, Team 1 showed us their hugely long code which gave life to their 6 dinner party guests and lit up the vertices in either red or blue<m>\ldots</m> Ramsey Theory animated and brought to life! There must have been an electrical engineer on that team! 
+</p>
+<p>
+Similarly, Team 2 visualized the <q>Friends and Strangers</q>Theorem and turned it into a contest. Team 3 focussed on the Mathematics of Colouring, the Order of Chaos and the Stubbornness of Patterns <m>\ldots</m> ooh, those are sexy terms that would lure one into the field of Mathematics! Sadly, once they got to <m>R(13,15)</m> I began retreating again. Team 4 used artwork and the set-up of Aliens invading Earth looking for Ramsey &#35;?s for various integers. I think the main point was to illustrate how <m>R(6,6)</m> is infinitely more complex than <m>R(5,5)</m> <m>\ldots</m> but what a fun journey it was! 
+</p>
+<p>
+The last Team 5 illustrated that a <m>3\times 3\times 3</m> Tic-Tac-Toe isn't much of a challenge, but a  <m>4\times 4\times 4</m> Quad-Tac-Toe is very challenging and they deployed Artificial Intelligence to either win or prevent you from doing so. If I understood correctly, with two colours there are 264 possible game combinations and they couldn't determine if a zero tie is even possible. Interesting! I have the board game equivalent called <q>Score Four</q> where you play to get the most lines of 4 but I've never played where both opponents are playing to block the other from achieving a score of one, and, with perfect play is that even possible. That might be another example similar to <m>R(5,7)</m> where: <q>We know that at certain point a line of 4 must occur for one team or the other, we just don't know what the number is</q>. Fascinating!
+</p>
+<p>
+Class &#35;4 Presentations weren?t as fun as were Class &#35;2. Team 1 did something very interesting with music drawing upon van der Waerden's Theorem. The pulsing music was cool but it played out against a static screen so I wasn't really learning anything. Team 2 couldn't find a vdW video so they created one using extensive computer code. Video of blue and green spikes, etc., Wow, Impressive!</p>
+<p>
+Team 3 used FABULOUS drawings of mathematicians Arlin &#38; Schrier to depict the origins of vdW's Proof. Not a lot of math in their presentation (kind of like my essay!) but wow, that was some great art! Team 4 depicted the Canonical Form of vdW theorem. Many hugely complex formulae <m>\ldots</m> either they have a budding young Einstein amongst them or <m>\ldots</m> (I'll leave it to you!).
+</p>
+<p>
+Team 5 created a play whereby an injured soldier writes his professor seeking puzzles to occupy his mind. In my view, it had nothing to do with math; all their energy was spent on writing, acting, filming and editing. But I remember my University days being on Team Projects <m>\ldots</m> eventually you just have to do something and get it in, and in this case it was very well done.
+</p>
+<p>
+Thank you, Dr. Jungic, for this very enjoyable course. You have a very engaging teaching style that took be back to dusty corners of my mind and in so doing opened it up and got me to appreciate the beauty, and the joy, of pure math that I had never fully experienced before! 
+</p>
+<p>
+P.S.  Hmm <m>\ldots</m> given that Frank Ramsey and Arthur Conan Doyle were contemporaries (they both died in 1930) I wonder if Ramsey drew inspiration from the famous Sherlock Holmes quote: <q>Once you eliminate the impossible, whatever remains, no matter how improbable, must be the truth</q>. After all, Ramsey Theory basically stands that quote on its head resulting in: <q>Once you have used up all the possibilities whatever comes next must be impossible</q> (i.e. - there is no more pigeon holes remaining).
+</p>
+
+</chapter>

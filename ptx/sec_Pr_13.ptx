@@ -1,0 +1,31 @@
+<chapter xml:id="sec_Pr_13">
+<title>Moser's Spindle</title>
+
+<introduction>
+<title>Project by:  <em>Jeanette Ostrom</em>, <em>Rachael Dawson</em>, <em>Nancy Van</em>, and  <em>Sukhwinder Singh</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> Our main goal for this project is to create an introductory video about the Moser Spindle to bring awareness to its significance, while using an audio-visual format to target multiple different learning styles. </p>
+
+<p>We have decided the best way to do this is to create a <q>Draw My Life</q> video, where we will outline the lives of William and Leo Moser, the Moser Spindle, how it has been used to help establish a lower bound of the chromatic number of a plane, as well as its relevance to Ramsey Theory and this course. 
+<p>
+</p>In our video, we illustrate images that correspond to the dialogue we have prepared and recorded a voiceover for.</p>
+<p>
+Although the topic of the Moser Spindle idea was just a suggestion for our project, we were quickly drawn in by its functionality in the field of mathematics. The Moser Spindle is a great place to start for anyone who is trying to understand the concept of the chromatic number of the plane and colouring due to its relatively simple nature.</p>
+<p> It is especially important in this class because our class focuses on the idea that there is always some order in chaos. A recent discovery showed that at least five colours are needed to colour every point in the plane so that no two points that are unit distance apart have the same colour (De Grey, 2018) which trumped the Moser Spindle that established that at least four colours were needed. </p>
+<p>However, the recent discovery was based on a graph of over a thousand vertices whereas the Moser Spindle has only seven vertices. These two graphs emphasize a similar idea to the Ramsey Numbers, being that sometimes something exists, but it is difficult to find the answer without advanced computing.
+</p>
+<p>
+Thank you, and I hope this project is useful to your appendix and future students!
+
+</p>
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Graham" youtube="z1ARqL7qwqE"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+</chapter>

@@ -1,0 +1,143 @@
+<chapter xml:id="sec_Pr_09">
+<title>Mission Impossible</title>
+
+<introduction>
+<title>Project by:  <em>Ricky Leung</em>, <em>Benson Li</em>, <em>Stephen Ng</em>, and  <em>Leona Wei</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> The goal of this project is to show that with the current computational capability there is not enough time to find <m>R(6,6)</m>. Our goal is to visually show how to calculate the Ramsey number for a small number of red and blue. We will illustrate how to solve <m>R(3,3)</m> in our comics and then try to generalize the result for <m>R(5,5)</m>. We also explore the number of combinations we need for <m>R(5,5)</m> and <m>R(6,6)</m>. This will give readers an intuition about how long it will take for an average or top of the line computer and if Moore's law will even give us enough transistors to solve this problem. And as Erd&#337;s  said we would be hopeless and have to fight the aliens.
+
+</p>
+
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Mission" youtube="bKDrefiQHKg"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+<p><m>\textbf{Mission Impossible - Comic Novel:}</m> </p>
+  
+<figure>
+<caption>Mission Impossible - Comic Novel by <em>Ricky Leung</em>, <em>Benson Li</em>, <em>Stephen Ng</em>, and  <em>Leona Wei</em>. </caption >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI0.png"/>
+<image source ="images/MI1.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI2.png"/>
+<image source ="images/MI3.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI4.png"/>
+<image source ="images/MI5.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI6.png"/>
+<image source ="images/MI7.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI8.png"/>
+<image source ="images/MI9.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI10.png"/>
+<image source ="images/MI11.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI12.png"/>
+<image source ="images/MI13.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI14.png"/>
+<image source ="images/MI15.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI16.png"/>
+<image source ="images/MI17.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI18.png"/>
+<image source ="images/MI19.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI20.png"/>
+<image source ="images/MI21.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI22.png"/>
+<image source ="images/MI23.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI24.png"/>
+<image source ="images/MI26.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI27.png"/>
+<image source ="images/MI28.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI29.png"/>
+<image source ="images/MI30.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI31.png"/>
+<image source ="images/MI32.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI33.png"/>
+<image source ="images/MI34.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI35.png"/>
+<image source ="images/MI36.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI37.png"/>
+<image source ="images/MI38.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI39.png"/>
+<image source ="images/MI40.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI41.png"/>
+<image source ="images/MI42.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI43.png"/>
+<image source ="images/MI44.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI45.png"/>
+<image source ="images/MI46.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI47.png"/>
+<image source ="images/MI48.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI49.png"/>
+<image source ="images/MI50.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI51.png"/>
+<image source ="images/MI52.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI53.png"/>
+<image source ="images/MI54.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI55.png"/>
+<image source ="images/MI56.png"/>
+</sidebyside >
+<sidebyside widths ="48% 48%" margins="auto" valign="middle">
+<image source ="images/MI58.png"/>
+<image source ="images/MI0.png"/>
+</sidebyside >
+</figure>
+
+</chapter>

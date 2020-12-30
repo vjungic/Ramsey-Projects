@@ -1,0 +1,35 @@
+<chapter xml:id="sec_Pr_10">
+<title>Quad-Tac-Toe Game</title>
+
+
+<introduction>
+<title>Project by:  <em>James Andrews</em>, <em>Ari Blondal</em>, <em>Tu Trinh</em>, and  <em>Haohui Zhang</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> The goal of this project was to remake the old board game Qubic - 3D Tic Tac Toe - into a web game.
+</p>
+<p>
+The project is based on Hales-Jewett theorem:
+<blockquote>
+<p>Let <m>m,k\in \mathbb{N}</m> and let <m>A</m> be an alphabet on <m>m</m> symbols. There exists an <m>n\in \mathbb:N"</m> such that whenever <m>A^n</m> is <m>k</m>-coloured there exists a monochromatic line.</p>
+</blockquote>
+</p>
+<p> In the Quad-Tac-Toe game one considers the alphabet <m>A=\{0,1,2,3\}</m> and the cube <m>A^3=\{(x,y,z):x,y,z\in\{0,1,2,3\}\}</m>. Two players are given two different colours and tasked to colour one point <m>(x,y,z)\in A^3</m> at each turn. The player who first  completes a monochromatic line wins. Here <q>a line</q> means a a set of four collinear points contained in <m>A^3</m>.
+</p>
+
+<p>Observe that there are 76 lines in <m>A^3</m>, but that only <m>61</m> of them are combinatorial lines.
+</p>
+
+<p>In the current version of the game, the player plays against AI.</p>
+<p></p>
+<figure>
+<caption>Quad-Tac-Toe Game</caption >
+<image width="70%" source ="images/Cube.png"/>
+</figure>
+<p></p>
+<p><m>\textbf{Game:}</m> To play the game please go to <url href="https://quad-tac-toe.herokuapp.com/">Quad-Tac-Toe Game</url>.</p>
+
+<p><m>\textbf{GitHub:}</m> To access the project files please go to this <url href="https://github.com/ablondal/four-by-four">GitHub repository</url>.</p>
+  
+
+</chapter>

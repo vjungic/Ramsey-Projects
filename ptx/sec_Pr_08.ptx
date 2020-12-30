@@ -1,0 +1,30 @@
+<chapter xml:id="sec_Pr_08">
+<title>How Big are Ramsey Numbers?</title>
+
+
+<introduction>
+<title>Project by:  <em>Wenben Cai</em>, <em>Xuan Liao</em>, <em>Heifeng Zhao</em>, and  <em>Yupeng Zhao</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> Our group chose to write a software program that is related to Ramsey?s theorem. The main goal of this program is to serve as an educational tool for students who are interested in Ramsey's theorem and Ramsey numbers but do not possess a coherent understanding of the concept.
+</p>
+<p>
+The program can be divided into several parts. It consists of an introduction, a part that finds an upper bound of a Ramsey number $R(s,t)$ with user-provided $s$ and $t$ values, a part that finds a lower bound of $R(s,t)$, a part that estimates the time required to find an exact value for $R(s,t)$, and a conclusion.</p>
+<p> Formulas that are derived using induction and the
+probability principle are applied in places calculating the tentative bounds of $R(s,t)$ and the program will construct an environment where users can use these formulas to find the bounds on their own and later check against the program for correctness.
+
+</p>
+
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Deadly-trio-2" vimeo="494589471"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+<p><m>\textbf{Link:}</m> To access the app please  go to this <url href="https://github.com/vjungic/bounds-ramsey">GitHub repository</url>.</p>
+  
+  <p> Please start with  the README.md file.</p>
+</chapter>

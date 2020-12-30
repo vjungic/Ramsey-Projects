@@ -1,0 +1,157 @@
+<chapter xml:id="sec_Pr_06">
+<title>Model of <m>R(3,3)</m></title>
+
+
+<introduction>
+<title>Project by:  <em>Binyamin Jasim</em> and  <em>Arun Sandhu</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> The main goal of our project is to to model a special case of Ramsey's theorem that a 2-colouring of a complete graph of size 6 will always have a monochromatic <m>K_3</m>. </p>
+<p>We will attempt to do this by incorporating different aspects of engineering that demonstrates this theory in the real world.</p>
+<p>The basis of our idea is to have 6 RGB LEDs that are formed in a complete graph of size 6. These LEDs will be connected to an Arduino and through a program that will be developed using the Arduino IDE we will be able to light up the LEDs either red or blue in a random order.</p>
+<p>From there we will be able to check at each LED, which of the other LEDs have the same colour. We will put these results in a 2D array that describes the relations between each led. For example, We start at LED 1 and we check if LED 2 is the same colour, if it is we put a 1 in the 2nd position of the 1st row, if it is not we will put a 0. We will do this for each LED which will look something like this:   
+<table>
+  <title>
+   Jasmin-Sandhu
+  </title>
+  <tabular>
+    <row>
+      <cell>
+        1
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+    </row>
+    <row>
+      <cell>
+        1
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+    </row>
+    <row>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+    </row>
+    <row>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+    </row>
+    <row>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+    </row>
+    <row>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        0
+      </cell>
+      <cell>
+        1
+      </cell>
+    </row>
+  </tabular>
+</table>
+
+where each row shows which LEDs have the same colour as the LED to the corresponding row. </p>
+<p>From here we will be able to determine which 3 LEDs are monochromatic by looking at which 3 LEDs share a 1, as well as which 3 LEDs share a 0.  From this we will also be able to see if there are any monochromatic-4?s, monochromic-5?s and so on in the colouring of the graph. Once the monochromatic sets of the connecting LEDs are determined we will light the connecting LEDs a single colour showing what the monochromatic set is. The main goal will be to show all the different monochromatic sets that are part of that specific graph colouring. We will also be 3D printing a shroud to hold the LEDs in a hexagonal shape as well as to hide the Arduino unit and the wiring. 
+
+</p>
+
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="model" vimeo="487891071"/> 
+ <p></p>
+</sidebyside>
+
+<p>
+</p>
+<p><m>\textbf{Note:}</m> We have created a code in C++ which can be easily ported over to the Arduino IDE. The code can solve the matrix for the monochromatic-3's and 4's and is able to show the vertices in a list. </p>
+</chapter>

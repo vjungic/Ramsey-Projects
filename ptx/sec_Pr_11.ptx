@@ -1,0 +1,981 @@
+<chapter xml:id="sec_Pr_11">
+<title>Enhancement of the Course Notes</title>
+<introduction>
+<title>Project by:  <em>Rashid Barket</em>, <em>Arpit Kaur</em>, <em>Michael Stephen Paulgaard</em>, and  <em>Ompreet Kaur Sarang</em></title>
+
+<p></p>
+<p><m>\textbf{Summary:}</m> Our project is focused on enhancing the course notes provided by Dr. Jungic. We are doing so in two methods: The first method is to add exercises to all the chapters. The purpose of adding exercises to this project is to get the reader to get hands-on practice in easy to medium level problems using ideas from Ramsey theory. The second method to enhance the course notes is to add new content to the course notes. On the recommendation of Dr. Jungic, we are writing about finding the density of planar sets without one unit distances and finding the fractional chromatic number of the plane. The purpose of the second part of the project has two objectives. The first objective is to help students understand a complicated subject like fractional chromatic numbers in a more intuitive way. Most of the students taking this class are not Math majors so we want to help these students grasp a concept that is normally intended for an audience with more mathematics experience. 
+</p>
+</introduction>
+<section>
+<title>Exercises</title>
+
+<exercise>
+<title>Pigeonhole principle</title>
+<statement>
+<p>Show that in a group of <m>n</m> people where <m>n\gt 2</m>, there are at least two people who have the same number of friends.</p>
+</statement>
+<solution>
+<p>Let <m>j</m> be the number of people with no friends. If <m>j\geq 2</m> then there are at least two people who have the same number (<m>0</m>) of friends. </p>
+
+
+<p>If <m>j\in\{0,1\}</m> then there are <m>n-j\gt 0</m> people who  have between  1 and <m>n-j-1</m> friends.</p>
+<p>By the Pigeonhole Principle there must be at least two people with the same number of friends.</p>.
+
+  </solution>
+  </exercise>
+  
+  <exercise>
+  <title>Pigeonhole principle</title>
+<statement>
+<p> Prove that if there are 10 pairs of shoes on a shelf, picking 11 shoes randomly from the shelf will result in picking up at least one pair of shoes.
+</p>
+</statement>
+<solution>
+<p> 
+If there are 11 pigeons (shoes) sitting in 10 pigeonholes (one for each pair of shoes), at least one pigeonhole has 2 pigeons (so a pair of shoes) by the pigeonhole principle.
+</p>.
+
+  </solution>
+  </exercise>
+  
+   <exercise>
+   <title>Pigeonhole principle</title>
+<statement>
+<p> There are many beads in a box. There are two colours of beads, red and blue, divided equally. If someone were to make three bracelets, using 10 beads each, prove that when the bracelets are stacked on top of each other, there will be a rectangle with each vertex the same colour. 
+</p>
+</statement>
+<solution>
+<p> 
+Observe that each vertical line of the stacked bracelets has three beads, and there are two colours, so each vertical line has a dominant colour by the pigeonhole principle, which means one colour appears a least twice in the vertical line. 
+</p>
+<p>Next recall that there are <m>2^3=8</m> possible colour different configurations of three beads stacked vertically.</p>
+<p>By the pigeonhole principle there must be at least two (out of ten) vertical lines with the same colour configurations. In two of those identically configured vertical lines we chose four beads coloured by the dominant colour that form a rectangle.</p>
+
+  </solution>
+  </exercise>
+  
+ 
+  
+ <exercise>
+ <title>Convex polygones</title>
+<statement>
+<p>  Show that, given five points in the plane with no three collinear, the number of convex quadrilaterals formed by these points is odd.</p>
+</statement>
+<solution>
+<p> 
+We consider three cases.
+</p>
+   <ul>
+       <li>
+       <p>Case 1: Suppose that the five vertices form a convex pentagon. Then any four of them form a convex quadrilateral.</p>
+        <p>There are five convex quadrilaterals in this case.</p>
+        </li>
+        <li>
+        <p> Case 2: Suppose that four points form a convex quadrilateral (say <m>A_1, A_2, A_3</m>, and <m>A_4</m> in clockwise order) which contains the fifth point <m>A_5</m> in its interior. Let <m>S</m> be the intersection of the diagonals <m>\overline{A_1A_3}</m> and <m>\overline{A_2A_4}</m> . Then the point <m>A_5</m> lies in one of the four triangles into which diagonals dissect the quadrilateral, say <m>\triangle SA_1A2</m>. Observe that the quadrilaterals <m>A_1A_5A_3A_4</m> and <m>A_2A_3A_4A_5</m> are convex but the other two are not.</p>
+        <p>There are three convex quadrilaterals in this case.</p>
+        </li>
+        <li>
+        <p>Case 3: Suppose that three points (say <m>A_1, A_2, A_3</m>) form a triangle with <m>A_4</m> and <m>A_5</m> in its interior. The line <m>A_4A_5</m> intersects two of the three sides, say <m>\overline{A_1A_2}</m> and <m>\overline{A_1A_3}</m>. Then <m>A_2,A_3 A_4A_5</m> is the only convex quadrilateral.
+</p>
+</li>
+</ul>
+
+  </solution>
+  </exercise>
+  
+  
+ <exercise>
+ <title>Ramsey number</title>
+<statement>
+<p> Prove that the upper bound for a diagonal Ramsey number is:
+
+    <me>R(s, s) \leq {2s - 2 \choose s - 1} .</me></p>
+</statement>
+<solution>
+<p> 
+Recall (Section 2.3) that, for any <m>s,t\geq 3</m>, <m>\displaystyle {s+t - 2 \choose t - 1}</m>. Hence, for <m>s=t</m>
+<me>R(s, s) \leq {2s - 2 \choose s - 1} .</me>
+</p>
+<p>
+<m>\textbf{Note:}</m> For the latest developments (as of December 2020) regarding the upper bounds for a diagonal Ramsey number see this article by Ashwin Sah, an undergraduate student from MIT:  <url href="https://arxiv.org/abs/2005.09251"><q>Diagonal Ramsey via effective quasirandomness</q> </url>.    
+</p>.
+
+  </solution>
+  </exercise>
+  
+    <exercise>
+    <title>van der Waerden number</title>
+<statement>
+<p> 
+ Show that if <m>k\equiv \pm 1(\mbox{mod } 6)</m> then <m>w(k,2,2;3)=3k</m>.
+ </p>
+</statement>
+<solution>
+<p>
+Suppose that 
+<m>k\equiv \pm 1(\mbox{mod } 6)</m>. The claim is obviously true for <m>k=1</m>. Hence suppose that <m>k\geq 5</m>. Let <m>l\geq 1</m> be such that <m>k=6l+1</m> or <m>k=6l-1</m>. Observe that <m>k</m> is an odd number.
+</p>
+<p> 
+To show that <m>w(k,2,2;3)=3k</m>, it is sufficient to prove that <m>w(k,2,2;3)\leq 3k</m> and <m>w(k,2,2;3)\geq 3k</m>.
+    </p>
+
+  <p>To prove that <m>w(k,2,2;3)\leq 3k</m> we need to show that any <m>3</m>-colouring (say, red, blue, and green) of the interval <m>[1,3k]</m> will yield a red <m>k</m>-term arithmetic progression or a blue <m>2</m>-term arithmetic progression or a green <m>2</m>-term arithmetic progression. 
+  </p>
+  <p>Clearly, any colouring of <m>[1,3k]</m> that contains two blue or two green elements will yield a blue <m>2</m>-term arithmetic progression or a green <m>2</m>-term arithmetic progression. 
+        </p>
+        <p>Hence we consider a three colouring <m>c:[1,3k]\to\{\mbox{red, blue, green}\}</m> that colours at most one element of <m>[1,3k]</m> blue and at most one element green.
+        </p>
+        <p>Observe that if one of the colours blue or green is not used then there is a sequence of at least <m>k</m> consecutive red elements. Clearly, in this case there is a red <m>k</m>-term arithmetic progression.
+        </p>
+        <p>
+        Hence assume that <m>c:[1,3k]\to\{\mbox{red, blue, green}\}</m> is a colouring such that there is a unique <m>x\in[1,3k]</m> such that <m>c(x)=\mbox{blue}</m> and a unique <m>y\in[1,3k]</m> such that <m>c(y)=\mbox{green}</m>. 
+        </p>
+        
+       <p>
+        Suppose that <m>y\lt x</m>. 
+        </p>
+        <p> If <m>y\gt k</m> or <m>x\lt 2k</m> then there  is a sequence of at least <m>k</m> consecutive red elements between <m>[1,y-1]</m> or between <m>[x+1,3k]</m>, i.e. there is a red <m>k</m>-term arithmetic progression.
+        </p>
+     
+        <p>
+        Suppose that <m>1\leq y\leq k\lt 2k\leq x\leq 3k</m>. Observe that  the number of elements between <m>x</m> and <m>y</m> is given by <m>d=(x-1)-(y+1)+1=x-y-1</m>.
+        </p>
+        
+     <p>
+       Note that if <m>y\lt k</m> or <m>x\gt 2k</m> then <m>d\geq k</m>, which means that there  is a sequence of at least <m>k</m> consecutive red elements between <m>y</m> and <m>x</m>. 
+               </p>
+<p>Hence the only remaining case is if <m>y=k</m> and <m>x=2k</m>. Observe that, since <m>k\equiv \pm 1(\mbox{mod } 6)</m>, neither <m>k</m> nor <m>2k</m> is divisible by 3.This implies that all elements of the <m>k</m>-term arithmetic progression 
+<me>3,3+3,\ldots, 3+3i,\ldots, 3+3(k-1)=3k</me>
+are coloured red.</p>
+
+<p> Therefore <m>w(k,2,2;3)\leq 3k</m> .</p>
+      
+       <p>To prove <m>w(k,2,2;3)\geq 3k</m>, we must show that there is a <m>3</m>-colouring of <m>[1, 3k-1]</m> which does not produce a red <m>k</m>-term arithmetic progression or a blue <m>2</m>-term arithmetic progression or a green <m>2</m>-term arithmetic progression.
+        </p>
+      
+        <p>
+        Let the colouring <m>c:[1,3k-1]\to\{\mbox{red, blue, green}\}</m> be defined in the following way:
+        <me> c(k)= \mbox{green},\ c(2k)= \mbox{blue}, \mbox{ and } c(x)=\mbox{red,} \mbox{ otherwise}.</me>
+        </p>
+      <p>Let
+      <me>a,a+d,\ldots,a+id,\ldots, a+(k-1)d</me>
+      be a <m>k</m>-term arithmetic progression contained in <m>[1,3k-1]</m>. 
+      </p>
+      <p> Observe that <m>d\in\{1,2,3\}</m>. Otherwise <m>a+(k-1)d\geq 1+4(k-1)=4k-3</m> which is greater than <m>3k-1</m> for <m>k\geq 5</m>.</p>
+      <p>Since any set of <m>k</m> consecutive integers in <m>[1,3k-1]</m> must contain the integer <m>k</m> or the integer <m>2k</m> we conclude that an arithmetic progression contained in <m>[1,3k]</m> with the step <m>d=1</m> cannot be <m>c</m>-monochromatic.
+      </p>
+      <p>If the arithmetic progression <m>a,a+2,\ldots,a+2i,\ldots, a+2(k-1)</m>
+      is contained in <m>[1,3k-1]</m> then <m>a+2(k-1)\leq 3k-1</m> implies that <m>a\leq k+1</m>. 
+      </p>
+      <p>
+      If <m>a</m> is an odd number then, for some <m>i\in\{0,1,\ldots,k-1\}</m>, <m>a+2i=k</m> and the corresponding <m>k</m>-term arithmetic progression is not <m>c</m>-monochromatic. 
+      </p>
+      <p>
+      If <m>a</m> is an even number then, for some <m>i\in\{0,1,\ldots,k-1\}</m>, <m>a+2i=2k</m> and the corresponding <m>k</m>-term arithmetic progression is not <m>c</m>-monochromatic. 
+      </p>
+      <p>If the arithmetic progression <m>a,a+3,\ldots,a+2i,\ldots, a+3(k-1)</m>
+      is contained in <m>[1,3k-1]</m> then <m>a+3(k-1)\leq 3k-1</m> implies that <m>a\leq 2</m>. 
+      </p>
+      <p>
+      If <m>a=1</m> and <m>k=6l+1</m> then <m> 1+3\cdot(2l)=k</m> and the corresponding <m>k</m>-term arithmetic progression is not <m>c</m>-monochromatic. 
+      </p> 
+     <p>
+      If <m>a=1</m> and <m>k=6l-1</m> then <m> 1+3\cdot(4l-1)=12l-2=2(6l-1)=2k</m> and the corresponding <m>k</m>-term arithmetic progression is not <m>c</m>-monochromatic. 
+      </p> 
+       <p>
+       If <m>a=2</m> and <m>k=6l+1</m> then <m> 2+3\cdot(4l)=12l+2=2\cdot(6l+1)=2k</m> and the corresponding <m>k</m>-term arithmetic progression is not <m>c</m>-monochromatic. 
+      </p> 
+     <p>
+      If <m>a=2</m> and <m>k=6l-1</m> then <m> 1+3\cdot(2l)=6l+1=k</m> and the corresponding <m>k</m>-term arithmetic progression is not <m>c</m>-monochromatic. 
+      </p> 
+<p> Hence, the colouring <m>c</m> of <m>[1,3k-1]</m> does not produce a red <m>k</m>-term arithmetic progression or a blue <m>2</m>-term arithmetic progression or a green <m>2</m>-term arithmetic progression which proves that <m>w(k,2,2;3)\geq 3k</m>.
+</p>
+  <p>  Therefore, <m>k=\pm 1(\mbox{mod } 6)</m> implies <m>w(k,2,2;3)=3k</m>.</p>
+    </solution>
+  </exercise>
+ <exercise>
+ <title>Arithmetic progressions</title>
+<statement>
+<ol>
+<li>
+<p> Check if the following 4-colouring of the set <m>\{1,2,\ldots,13\}</m> avoids monochromatic 3-term arithmetic progressions:
+	
+		<me>R \ B \ B \ G \ Y \ R \ Y \ G\  B \ Y \ Y\ B \ G</me>
+	
+</p>
+</li>
+<li>
+<p>
+Add 3 colours to the end to produce a monochromatic 3-term arithmetic progression.
+</p>
+</li>
+</ol>
+</statement>
+<solution>
+<ol>
+<li>
+<ul>
+<li>
+<p> 
+Since there are only two red (<m>R</m>) elements, <m>1</m> and <m>6</m>, there is no a red <m>3</m>-term arithmetic progression.
+</p>
+</li>
+<li>
+<p>
+There are four blue (<m>B</m>) elements, <m>2,3,9</m> and <m>12</m>. Clearly this set does not contain a <m>3</m>-term arithmetic progression.
+</p>
+</li>
+<li>
+<p>
+There are three green (<m>G</m>) elements, <m>4,8</m> and <m>13</m>. These three elements do not form a <m>3</m>-term arithmetic progression.
+</p>
+</li>
+<li>
+<p>
+There are four yellow (<m>Y</m>) elements, <m>5,7,10</m> and <m>11</m>. This set does not contain a <m>3</m>-term arithmetic progression.
+</p>
+</li>
+</ul>
+</li>
+<li>
+<p>
+For example,
+<me>R \ \underline{B} \ B \ G \ Y \ R \ Y \ G \ \underline{B} \ Y \ Y \ B \ G \ Y \ B\ \underline{B}.</me>
+</p>
+</li>
+</ol>
+
+  </solution>
+  </exercise>
+  
+<exercise>
+<title>Density</title>
+<statement>
+<p>What is the density of the set of all powers of 3?</p>
+</statement>
+<solution>
+<p>Consider the set of all powers of 3, i.e. consider the set <m>A=\{1,3,9,27,\ldots \}</m>. </p>
+<p>
+    Let  <m>n \in \mathbb{N}</m> and let <m>k \in \mathbb{N}\cup\{0\}</m> be such that <m>3^k \leq n\lt 3^{k+1}</m>. This is the same as 
+
+   <me>k \leq \log_{3}(n)\lt k+1.</me>
+</p>
+  <p>  It follows that 
+
+   <me>a(n)=|A\cap [1,n]| \leq 1+\log_{3}(n).</me>
+By definition,
+    <me>\mbox{Density of } A=  \lim_{n\to\infty} \frac{a(n)}{n} \leq \lim_{n\to\infty} \frac{1+ \log_{3}(n)}{n}= 0.</me>
+    </p>.
+
+  </solution>
+  </exercise>
+
+<exercise>
+<title>Arithmetic progressions</title>
+<statement>
+<p> Prove that for any <m>k,l\in \mathbb{N}</m> there is <m>S(k, l)\in \mathbb{N}</m> such that any <m>k</m>-colouring of the set of positive integers <m> [1,S(k,l)]</m> contains a monochromatic arithmetic progression of length <m>l</m> together with its difference.</p>
+</statement>
+<solution>
+<p>We prove the claim by mathematical induction on <m>k</m>, the number of colours.</p>
+<p>For <m>k=1</m> and any <m>l\in\mathbb{N}</m> we take <m>S(1, l) = l</m>.</p>
+
+<p>Assume that the claim is true for a fixed <m>k\geq 1</m> and any <m>l\in \mathbb{N}</m>.  We fix <m>l \in\mathbb{N}</m> and denote by <m>S(k,l)</m> the corresponding number. </p>
+<p>Next we define
+   <me>S(k+1, l) = w(k+1, (l-1)S(k, l) + 1),</me>
+
+    where <m>w(\ast, \ast)</m> denotes a van der Waerden number. 
+    </p>
+    <p>Let the set of integers <m>[1,S(k+1, l)]</m> be <m>(k+1)</m>-coloured. Then, by van der Waerden's Theorem, there is a <m>((l-1)S(k, l) + 1)</m>-term  monochromatic arithmetic progression
+    <me>a, a+d, ..., a+(l-1)S(k, 1)d.</me>
+</p>
+    <p>
+    For every <m>x = 1, 2, \ldots, S(k, l)d</m> this monochromatic arithmetic progression contains the following 
+    <m>l</m>-term arithmetic progression:
+    <me>a, a+xd, \ldots, a+(l-1)xd.</me>
+</p>
+<p>
+    If for one of the numbers <m>x</m>, the difference <m>xd</m> is coloured by the same colour as the original progression,
+    we have concluded the proof of our induction step. </p>
+    <p>Otherwise, the <m>S(k,l)</m>-term arithmetic progression
+    <me>d, 2d, \ldots S(k, l)d</me>
+    
+    is coloured in only <m>k</m> colours. Now we apply the inductive hypothesis to conclude that the <m>k</m>-coloured set <m>\{d, 2d, \ldots S(k, l)d\}\subset [1,S(k+1,l)]</m> contains a monochromatic arithmetic progression of length <m>l</m> together with its difference.
+    </p>
+  </solution>
+  </exercise>
+  
+  <exercise>
+  <title>Schur triples and arithmetic progressions</title>
+<statement>
+<p>Show that the minimum integer <m>n</m> such that any red/blue colouring of <m>[1,n]</m> must admit either a red strict Schur triple, or a blue <m>3</m>-term arithmetic progression is <m>n=10</m>.</p>
+</statement>
+<solution>
+<p>The question is to show that any red/blue colouring of <m>[1,10]</m> must contain a red solution to <m>x+y=z</m> (of distinct integers) or a blue solution to <m>x+y=2z</m>.</p>
+<p> We also need to show that there is a red/blue colouring of <m>[1,9]</m> with no red solution to <m>x+y=z</m> (of distinct integers) or a blue solution to <m>x+y=2z</m>. The following colouring of <m>[1,9]</m>  achieves this:</p>
+<image>
+<latex-image>
+\begin{tikzpicture}[
+            Bl/.style={circle, blue, draw=blue, fill=blue!20,},
+            Rd/.style={circle, red, draw=red, fill=red!20,}
+        ]
+            \node[Bl] at (0,0) {1};
+            \node[Bl] at (1,0) {2};
+            \node[Rd] at (2,0) {3};
+            \node[Bl] at (3,0) {4};
+            \node[Rd] at (4,0) {5};
+            \node[Rd] at (5,0) {6};
+            \node[Rd] at (6,0) {7};
+            \node[Bl] at (7,0) {8};
+            \node[Bl] at (8,0) {9};
+        \end{tikzpicture}
+
+  </latex-image>
+    </image>
+    <p> Next we try to build a red/blue colouring of <m>[1,10]</m> that avoids a red (<m>R</m>) solution to <m>x+y=z</m> (of distinct integers) or a blue (<m>B</m>) solution to <m>x+y=2z</m>.</p>
+    <p>We start by observing that such a colouring has to avoid monochromatic triples <m>\{1,2,3\}</m>, <m>\{2,4,6\}</m>, and <m>\{3,6,9\}</m> because these triples are both <m>3</m>-term arithmetic progressions and Schur's triples.
+</p>
+<p> In our attempt to avoid a red solution to <m>x+y=z</m> (of distinct integers) or a blue solution to <m>x+y=2z</m>, we consider all possible colourings of the triple <m>\{2,4,6\}</m> with two colours, <m>R</m> and <m>B</m>:
+</p>
+<ul>
+<li>
+<p>Case 1: If <m>2=R,4=B,6=B</m> then <m>5=R</m> (because of the arithmetic progression <m>4,5,6</m>). This implies <m>7=B</m> (because of <m>2+5=7</m>) and <m>8=R</m> (because of the arithmetic progression <m>6,7,8</m>) and <m>10=R</m> (because of the arithmetic progression <m>4,7,10</m>), But now, <m>2,8,10</m> is a red Schur's triple.
+</p>
+</li>
+<li>
+<p>Case 2: If <m>2=B,4=R,6=B</m> then <m>10=R</m> (because of the arithmetic progression <m>2,6,10</m>). </p>
+<p>Now, if <m>3=B</m> then <m>1=R</m> (because of the arithmetic progression <m>1,2,3</m>) and <m>9=B</m> (because of <m>1+9=10</m>.) But then <m>3,6,9</m> is a blue arithmetic progression.</p>
+<p>If <m>3=R</m> then <m>7=B</m> (because of <m>3+4=7</m>) and <m>5=R</m> (because of the arithmetic progression <m>5,6,7</m>) and <m>8=R</m> (because of the arithmetic progression <m>6,7,8</m>). But then <m>3+5=8</m> is a red Schur's triple.
+</p>
+</li>
+<li>
+<p>Case 3: If <m>2=B,4=B,6=R</m> then <m>3=R</m> (because of the arithmetic progression <m>2,3,4</m>). It follows that <m>9=B</m> (because of <m>3+6=9</m>). </p>
+<p>Now, if <m>1=R</m> then <m>5=B</m> (because of <m>1+5=6</m>) and <m>7=B</m> (because of <m>1+6=7</m>.) But then <m>5,7,9</m> is a blue arithmetic progression.</p>
+<p>If <m>1=B</m> then <m>5=R</m> (because of the arithmetic progression <m>1,5,9</m>) and <m>7=B</m> (because of <m>1+6=7</m>.) Also, <m>8=B</m> (because of <m>3+5=8</m>). This implies  <m>7=R</m> (because of the arithmetic progression <m>7,8,9</m>) and then 
+<m>10=R</m> (because of the arithmetic progression <m>8,9,10</m>). Now, <m>3+7=10</m> is a red Schur's triple.
+</p>
+</li>
+<li>
+<p>Case 4: Let <m>2=R,4=R,6=B</m>. </p>
+<p>Now, if <m>3=R</m> then <m>5=B</m> (because of <m>2+3=5</m>) and <m>7=B</m> (because of <m>3+4=7</m>.) But then <m>5,6,7</m> is a blue arithmetic progression.</p>
+<p>If <m>3=B</m> then <m>9=R</m> (because of the arithmetic progression <m>3,6,9</m>) and <m>5=B</m> (because of <m>4+5=9</m>) and <m>7=B</m> (because of <m>2+7=9</m>). Now, <m>5,6,7</m> is a blue arithmetic progression.
+</p>
+</li>
+<li>
+<p>Case 5: If <m>2=R,4=B,6=R</m> then <m>8=B</m> (because of <m>2+6=8</m>). </p>
+<p>Now, if <m>5=R</m> then <m>1=B</m> (because of <m>1+5=6</m>), <m>3=B</m> (because of <m>2+3=5</m>. and <m>7=B</m> (because of <m>2+5=7</m>.) But then <m>1,4,7</m> is a blue arithmetic progression.</p>
+<p>If <m>5=B</m> then <m>3=R</m> (because of the arithmetic progression <m>3,4,5</m>) and <m>1=B</m> (because of <m>1+2=3</m>) and <m>7=R</m> (because of  the arithmetic progression <m>1,4,7</m>). Now, if <m>9=B</m> (because of <m>2+7=9</m>), then <m>1,5,9</m> is a blue arithmetic progression.
+</p>
+</li>
+<li>
+<p>Case 5: If <m>2=B,4=R,6=R</m> then <m>10=B</m> (because of <m>4+6=10</m>). </p>
+<p>Now, if <m>3=R</m> then <m>1=B</m> (because of <m>1+3=4</m>), <m>7=B</m> (because of <m>3+4=7</m>. and <m>9=B</m> (because of <m>3+6=9</m>.) It follows that <m>8=R</m> (because of the arithmetic progression <m>8,9,10</m>) and <m>5=B</m> (because of <m>3+5=8</m>). But then <m>1,5,9</m> is a blue arithmetic progression.</p>
+<p>If <m>3=B</m> then <m>1=R</m> (because of the arithmetic progression <m>1,2,3</m>) and <m>5=B</m> (because of <m>1+4=5</m>) and <m>7=B</m> (because of <m>1+6=7</m>) . But then <m>3,5,7</m> is a blue arithmetic progression.
+</p>
+</li>
+</ul>
+Therefore, it is impossible to colour <m>[1,10]</m> red and blue and to avoid a red Schur's triple or a blue <m>3</m>-term arithmetic progression.
+  </solution>
+  </exercise>
+
+<exercise>
+<statement>
+<p>Check if the equation <m>x-y+5z-3w=0</m> is partition regular over <m>\mathbb{N}</m>.</p>
+</statement>
+<solution>
+<p>Yes, the given equation is partition regular over <m>\mathbb{N}</m>. If we look at all the coefficients: <m>c_1=1,c_2=-1,c_3=5,c_4=-3</m>, the sum of the coefficients <m>c_1</m> and <m>c_2</m> turns out to be equal to 0. Hence, by Rado's theorem this equation is partition regular, i.e it has a monochromatic solution for any finite colouring of the set of natural numbers.
+</p>
+  </solution>
+  </exercise>
+
+<exercise>
+<title>Rado graph</title>
+<statement>
+<p>On the Rado graph, will vertex 3 be connected to vertex 9?</p>
+</statement>
+<solution>
+<p>On the Rado graph, vertex 3 will be connected to vertices that have a non-zero 3rd bit of the binary representation. Vertex 9 in binary representation is <m>1001</m>. The 3rd bit of <m>1001</m> is 0, therefore vertex 3 will not be connected to vertex 9.
+</p>
+  </solution>
+  </exercise>
+
+<exercise>
+<title>Combinatorial lines</title>
+<statement>
+<ol>
+<li>
+<p>
+Draw the <m>2</m>-dimensional cube corresponding to <m>A=\{1,2,3\}</m>. What does each word in the cube represent if we are playing tic-tac-toe?
+ </p>       
+ </li>
+ <li>
+ <p>First, list all the combinatorial lines in <m>A^2</m>. Explain why a combinatorial line is a winning line in tic-tac-toe.  Are there any winning lines in tic-tac-toe that is not a combinatorial line?
+ </p>
+ </li>
+ <li>
+ <p>In <xref ref="fig_HJ-3">Figure</xref> you will see 4 lines on a 4x4x4 cube. For each line, write the combinatorial line and the root associated with the combinatorial line. If it is not a combinatorial line, briefly explain why.
+ </p>
+          <figure xml:id="fig_HJ-3">
+    <caption>Three combinatorial lines in <m>[1,3]^4</m>.</caption>
+    <image width="70%">
+           <latex-image> 
+    \begin{tikzpicture}
+%\draw[step=1.0,gray!80,ultra thin] (0,0) grid (3,3);
+\draw[ ultra thick] (-2,0)--(4,0)--(4,4)--(-2,4)--(-2,0);
+\draw[ ultra thick] (4,0)--(7,2)--(7,6)--(4,4);
+\draw[ ultra thick,gray,dashed] (-2,0)--(1,2)--(1,6);
+\draw[ ultra thick] (-2,4)--(1,6)--(7,6);
+\draw[ ultra thick,gray, dashed] (1,2)--(7,2);
+\foreach \x in {-2,0,2,4}{\foreach \y in {0,4}
+\draw[fill=black] (\x,\y) circle (0.08cm);
+}
+\foreach \x in {-2,4}{\foreach \y in {1.33,2.66}
+\draw[fill=black] (\x,\y) circle (0.08cm);
+}
+\foreach \x in {1,3,5,7}{\foreach \y in {2,6}
+\draw[fill=black] (\x,\y) circle (0.08cm);
+}
+\foreach \x in {1,7}{\foreach \y in {3.33,4.66}
+\draw[fill=black] (\x,\y) circle (0.08cm);
+}
+\foreach \x in {-1,5}{\foreach \y in {0.65,1.98,3.31,4.65}
+\draw[fill=black] (\x,\y) circle (0.08cm);
+}
+\foreach \x in {0,6}{\foreach \y in {1.3,2.635,3.975,5.305}
+\draw[fill=black] (\x,\y) circle (0.08cm);
+}
+\foreach\x/\t in {-2/4,0/3,2/2,4/1}
+\draw (\x,-0.2) node[below]{$(\t,1,1)$};
+\foreach\x/\t in {2/1,3.33/2,4.66/3,6/4}
+\draw (7,\x) node[right]{$(1,4,\t)$};
+\draw (5.1,0.5) node[right]{$(1,2,1)$};
+\draw (6.1,1.2) node[right]{$(1,3,1)$};
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (5,6) circle (0.2cm);
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (-1,0.65) circle (0.2cm);
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (0,2.635) circle (0.2cm);
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (1,6) circle (0.2cm);
+\draw[ultra thick, red,->] (4,0)--(1,6);
+\draw[ultra thick]  (0.7,6.5) node[right,red]{$L_{3}$};
+\draw[ultra thick, blue,->] (5,4.65)--(-1,0.65);
+\draw[ultra thick]  (-1.2,0.65) node[left]{\textcolor{blue}{$L_{2}$}};
+\draw[ultra thick, green,->] (6,2.635)--(0,2.635);
+\draw[ultra thick, violet,->] (5,2)--(5,6);
+\draw[ultra thick]  (-0.2,2.635) node[left]{\textcolor{green}{$L_{1}$}};
+\draw[ultra thick]  (5.2,6.5) node[left]{\textcolor{violet}{$L_{4}$}};
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (5,4.65) circle (0.2cm);
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (6,2.635) circle (0.2cm);
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (4,0) circle (0.2cm);
+\draw[ultra thick, pink, fill=pink, fill opacity=2] (5,2) circle (0.2cm);
+\end{tikzpicture}
+    </latex-image>
+        </image>
+  </figure>
+
+ </li>
+ </ol>
+</statement>
+<solution>
+<ol>
+<li>
+<p>Each word on the 2-dimensional cube corresponds to a position on the tic-tac-toe board.</p>
+ <figure xml:id="fig_HJ-1">
+    <caption>All combinatorial lines in <m>[1,3]^2</m>.</caption>
+    <image width="50%">
+           <latex-image> 
+    \begin{tikzpicture}
+\begin{axis}[xmin=-0.5, xmax=4.7,
+    ymin=-0.5, ymax=4.7,
+    grid=both,
+    grid style={step=1, line width=.1pt, dashed, draw=gray!60},axis lines=middle,xlabel=$x$,ylabel=$y$]
+\addplot[domain=1:3.9, ->, ultra thick] {x};
+\foreach \t in {1,2,3}
+\addplot[domain=1:3.8, ->, ultra thick] {\t};
+\foreach \t in {1,2,3}
+\addplot[domain=1:3.9, ->, ultra thick] ({\t},{\x});
+\foreach \u in {1,2,3}{\foreach \v in {1,2,3}
+\addplot[black,fill=blue, fill opacity=3] (\u,\v) circle (0.2cm);
+}
+\end{axis}
+\draw[ultra thick] (2,5) node{$L_{\tau_4}$};
+\draw[ultra thick] (3.4,5) node{$L_{\tau_5}$};
+\draw[ultra thick] (4.7,5) node{$L_{\tau_6}$};
+\draw[ultra thick] (6,5) node{$L_{\tau_7}$};
+\draw[ultra thick] (6.1,3.9) node{$L_{\tau_3}$};
+\draw[ultra thick] (6.1,2.8) node{$L_{\tau_2}$};
+\draw[ultra thick] (6.1,1.7) node{$L_{\tau_1}$};
+\end{tikzpicture}
+    </latex-image>
+        </image>
+  </figure>
+
+
+</li>
+<li>
+<p>Below is the list of all the roots in <m>A^2</m> together with the corresponding combinatorial line:
+        <me>\tau_1 = * 1 \implies L_{\tau_1}=\{1\:1, 2\:1, 3\:1\} </me>
+       <me>\tau_2 = * 2 \implies L_{\tau_2}=\{1\:2, 2\:2, 3\:2\} </me>
+      <me>\tau_3 = * 3 \implies L_{\tau_3}=\{1\:3, 2\:3, 3\:3\}  </me>
+       <me>\tau_4 = 1 * \implies L_{\tau_4}=\{1\:1, 1\:2, 1\:3\}  </me>
+       <me>\tau_5 = 2 * \implies L_{\tau_5}=\{2\:1, 2\:2, 2\:3\} </me>
+      <me>\tau_6 = 3 * \implies L_{\tau_6}=\{3\:1, 3\:2, 3\:3\}  </me>
+      <me>\tau_7 = * * \implies L_{\tau_7}=\{1\:1, 2\:2, 3\:3\}  </me>
+     </p>
+     <p>   
+        Based on the tic-tac-toe board, we can see that <m>\tau_1, \tau_2, \tau_3</m> correspond to a horizontal winning line in each row, <m>\tau_4, \tau_5, \tau_6</m> correspond to a vertical winning line in each column, and <m>\tau_7</m> is the diagonal winning line starting at <m>1\:1</m> and finishing at <m>3\:3</m>.
+        </p>
+        <p>
+        One winning line that cannot be represented by a combinatorial line is <m>\{3\:1, 2\:2, 1\:3\}</m>. This is because there is no root to represent this line. We can see that each word is changing in more than one position and to different letters.
+
+</p>
+</li>
+<li>
+<p>We can see that <m>L_2</m> is not a combinatorial line. Observe that the line <m>L_2</m> begins at <m>(1,2,4)</m> and ends at <m>(4,2,1)</m>. This means <m>L_2</m> contains the points <m>\{1\:2\:4, 2\:2\:3, 3\:2\:2, 4\:2\:1  \}</m>. Since the first and third letter in each word change to different letters at different times, this set of words cannot be obtained from a root. It follows that  <m>L_2</m> is not a combinatorial line. 
+</p>
+<p>The corresponding roots and lines for the rest are:
+        
+        <me>\tau_1 = *32 \implies L_{\tau_1}=L_1=\{1\:3\:2, 2\:3\:2, 3\:3\:2, 4\:3\:2 \}</me>
+      <me>\tau_3 = *** \implies L_{\tau_3}=L_3=\{1\:1\:1, 2\:2\:2, 3\:3\:3, 4\:4\:4 \}</me>
+      <me>\tau_4 = 24* \implies L_{\tau_4}=L_4==\{2\:4\:1, 2\:4\:2, 2\:4\:3, 2\:4\:4 \} </me>
+            
+</p>
+</li>
+</ol>
+  </solution>
+  </exercise>
+ 
+  <exercise xml:id="ex_HJ2-2">
+  <title>Hales-Jewett</title>
+<statement>
+<p>Find <m>HJ(2,2)</m>. Show your work.</p>
+</statement>
+<solution>
+<p>Let <m>A=\{1,2\}</m>. Observe that <m>A^2=\{1\;1,1\;2,2\;1,2\;2\}</m>.</p>
+
+<p>
+Let <m>c</m> be any <m>2</m>-colouring of <m>A^2</m>. Consider the set <m>A^\prime=\{1\;1,1\;2,2\;2\}\subset A^2</m>. By the pigeonhole principle, there are at least two elements in <m>A^\prime</m> that are coloured by the same colour. Observe that those two elements form a <m>c</m>-monochromatic combinatorial line in <m>A^2</m>.
+</p>
+<p>Hence <m>HJ(2,2)=2</m>.</p>
+
+  </solution>
+  </exercise>
+  
+ <exercise>
+ <title>Monochromatic combinatorial lines</title>
+<statement>
+<p> For what values of <m>n>1</m> any <m>2</m>-colouring of <m>[1, n]^2</m> will always contains a monochromatic combinatorial line with length <m>n</m>? </p>
+</statement>
+<solution>
+<p>In <xref ref="ex_HJ2-2">Exercise</xref>  we have established that this is true for <m>n=2</m>.</p>
+
+<p>
+Let <m>n\geq 3</m> and let <m>A=\{1,2,\ldots,n\}</m> be an alphabet. Let <m>c</m> be a <m>2</m>-colouring of <m>A^2</m> defined in the following way:
+<me>c(i,i)=B, \mbox{ if } i\lt n,\mbox{ and } c(n,n)=R</me>
+<me>c(n,i)=c(i,n)=B, \mbox{ if } i\lt n, \mbox{ and }c(i,j)=R, \mbox{ otherwise}.</me>
+</p>
+
+<p>Recall that all combinatorial lines is <m>A^2</m> are determined by one of the roots <m>\ast\; i</m>, <m>i\; \ast</m>, where <m> i\in [1,n]</m>, and <m>\ast\; \ast</m>.
+</p>
+<p>Since, for any <m> i\in [1,n]</m>, the words <m>2\; i</m> and <m>n\; i</m> are of different colours, the combinatorial line generated by the root <m>\ast\; i</m> is not <m>c</m>-monochromatic. Similarly, for any <m> i\in [1,n]</m> the combinatorial line generated by the root <m>i\; \ast </m> is not <m>c</m>-monochromatic.</p>
+<p>Finally, the combinatorial linedetermined by the root <m>\ast\; \ast</m> is not <m>c</m>-monochromatic because the words <m>1\; 1</m> and <m>n\; n</m> are not of the same colour.
+</p>
+<p> Therefore, only if <m>n=2</m>, any <m>2</m>-colouring of <m>[1, n]^2</m> will always contains a monochromatic combinatorial line with length <m>n</m>
+</p>
+  </solution>
+  </exercise>
+
+</section>
+<section>
+<title> Fractional Chromatic Number </title>
+<p></p>
+<definition>
+<p>For a given graph <m>G=(V,E)</m> and the positive integers <m>m</m> and <m>n</m>, <m>m\leq n</m>, a proper <m>n/m</m>-colouring with <m>n</m> colours of the graph <m>G</m> is a function that assigns to each vertex a set of <m>m</m> distinct colours, in such a way that adjacent vertices are assigned mutually disjoint sets. </p>
+<p>
+The fractional chromatic number of <m>G</m> is defined as
+<me>\chi_f(G)=\inf\left\{\frac{n}{m}: \mbox{there is a proper } n/m \mbox{ colouring of }G\right\}.</me>
+</p>
+<p>Let <m>m</m> and <m>n</m> be positive integers with <m>m \leq n</m>. An <m>n/m</m>-colouring is a function with <m>n</m> colours of the plane that assigns a set of <m>m</m> distinct colours to each point in the plane so that any two points that are one unit apart are assigned mutually disjoint sets. </p>
+<p>The fractional chromatic number of the plane is:
+	<me>\chi_{f} (\mathbb{R}^2) = \inf\left\{ \frac{n}{m}: \text{there is a proper n/m colouring of the plane}\right\} .</me>
+</p>
+
+</definition>
+<p>
+The current lower bound for the fractional chromatic number of the plane, <m>\chi_{f} (\mathbb{R}^2) \geq \frac{1999983}{512933} \approx 3.8991</m>, was established in 2020 by  Bellitto,  P&#234;cher, and S&#233;dillot, and the upper bound, <m>4.3599</m>, was established in 1993 by Hochberg and O'Donnell. 
+</p>
+<example>
+<p>The Moser spindle (<m>MS</m>) is used to establish an early lower bound of the chromatic number of the plane. Four colours are required to colour the vertices, so that no two adjacent vertices are of the same colour.</p>
+
+<p>We can apply the definition of the fractional colouring to the above fact to establish that <m>\chi_f(MS)\leq 4/1=4</m>.</p>
+
+ <figure xml:id="fig_Moser-11">
+    <caption>A <m>4/1</m>-fractional colouring of the vertices of the Moser spindle.</caption>
+    <image width="40%">
+           <latex-image> 
+
+\begin{tikzpicture}[scale=0.4]
+\foreach \x/\t in {90/A,210/B,330/C}
+\coordinate(\t) at ({2*cos(\x)},{2*sin(\x)});
+\coordinate (D) at (0,-4);
+\draw[draw=none, domain=-280:-80, smooth, variable=\x, dashed,green, name path=c1] plot ({(4*cos(30))*cos(\x)}, {2+(4*cos(30))*sin(\x)});
+\draw[draw=none, domain=-79:30, smooth, variable=\x, dashed,green, name path=c11] plot ({(4*cos(30))*cos(\x)}, {2+(4*cos(30))*sin(\x)});
+\draw[draw=none, domain=-280:30, smooth, variable=\x, dashed,olive,name path=c2] plot ({-sqrt(3)+(4*cos(30))*cos(\x)}, {-1+(4*cos(30))*sin(\x)});
+\draw[draw=none, domain=-280:30, smooth, variable=\x, dashed,olive,name path=c3] plot ({sqrt(3)+(4*cos(30))*cos(\x)}, {-1+(4*cos(30))*sin(\x)});
+\draw[draw=none, domain=-20:160, smooth, variable=\x, dashed,blue,name path=c4] plot ({(4*cos(30))*cos(\x)}, {-4+(4*cos(30))*sin(\x)});
+\draw[draw=none, domain=-120:20, smooth, variable=\x, dashed, blue, name path=c5] plot ({(4*sqrt(3)*cos(30))*cos(\x)}, {2+(4*sqrt(3)*cos(30))*sin(\x)});
+\draw[draw=none, domain=170:240, smooth, variable=\x, dashed, blue, name path=c55] plot ({(4*sqrt(3)*cos(30))*cos(\x)}, {2+(4*sqrt(3)*cos(30))*sin(\x)});
+\draw[draw=none, domain=0:240, smooth, variable=\x, dashed,purple,name path=c6] plot ({(3.25+(4*cos(30))*cos(\x)}, {-3+(4*cos(30))*sin(\x)});
+\fill [name intersections={of=c4 and c5,by={E}},red] (E) circle (0.15cm);
+\fill [name intersections={of=c1 and c6,by={F}},red] (F) circle (0.15cm);
+\fill [name intersections={of=c11 and c6,by={G}},red] (G) circle (0.15cm);
+\draw[thick] (B)--(C)--(A)--(B)--(D)--(C);
+\draw[thick] (D)--(E);
+\draw[thick] (F)--(G)--(A)--(F)--(E)--(G);
+\draw[ultra thick,yellow, fill=yellow,fill opacity=1] (F) circle (0.15cm);
+\draw[ultra thick,red, fill=red,fill opacity=1] (A) circle (0.15cm);
+\draw[ultra thick, blue, fill=blue,fill opacity=1] (B) circle (0.15cm);
+\draw[ultra thick, blue, fill=blue,fill opacity=1] (G) circle (0.15cm);
+\draw[ultra thick, green, fill=green,fill opacity=1] (C) circle (0.15cm);
+\draw[ultra thick,red, fill=red,fill opacity=1] (D) circle (0.15cm);
+\draw[ultra thick, green, fill=green, fill opacity=1] (E) circle (0.15cm);
+%\foreach \N/\t in {A/above right,B/below left,C/below right,D/below left,E/right,F/below left,G/above right}
+%\draw (\N) node[\t]{$\N$};
+%\draw (0.5,-6) node[black]{\textbf{Trouble again \ldots}};
+\end{tikzpicture}
+
+</latex-image>
+    </image>
+</figure>
+
+<p>
+But can we do better? If we place three colours in each vertex, we find that we only need eleven colours to colour the Moser spindle. Which gives us a <m>\chi_f (MS)\leq \frac{11}{3}\approx 3.66</m>.</p> 
+
+<figure xml:id="fig_Moser-frac11-3">
+    <caption>A graph isomorphic to the Moser spindle together with its proper <m>11/3</m> colouring </caption>
+    <image width="40%">
+           <latex-image> 
+\begin{tikzpicture}[scale=0.4]
+%\providecommand* \angle {30}
+%\draw[step=1.0,gray!60,ultra thin, dashed] (-2.5,0.5) grid (2.5,3.8);
+\coordinate (A) at (0,3.46);
+\coordinate (B) at (-2,0);
+\coordinate (C) at (0,0);
+\coordinate (D) at (2,0);
+\coordinate (E) at (-1,-3.3);
+\coordinate (F) at (1,-3.3); 
+%\draw[ultra thick] (A)--(B)--(E)--(C)--(F)--(D)--(A);
+%\draw[ultra thick] (B)--(C)--(D);
+%\draw[ultra thick] (A)--(C);
+%\draw[ultra thick, domain=-73:253, smooth, variable=\x] plot ({3.46*cos(\x)}, {3.46*sin(\x)});
+\coordinate (G) at (0,-6);
+\coordinate (H) at (-3,0);
+\coordinate (I) at (3,0);
+\coordinate (J) at (-1,-1);
+\coordinate (K) at (-0.8,1);
+\coordinate (L) at (1,-1); 
+\coordinate (M) at (0.8,1); 
+\foreach \N in {H,I,J,L}
+\draw[thick] (G)--(\N);
+\draw[thick] (J)--(H)--(K)--(J);
+\draw[thick] (K)--(M)--(I)--(L)--(M);
+%\foreach \N in {G,H,I,J,K,L,M}
+%\draw[white,fill=white] (\N) circle (0.15cm);
+\coordinate (G1) at (0,-6.25);
+\coordinate (G2) at (0,-5.75);
+\draw[thick] (G1)--(G2);
+\draw[ultra thick, red, fill=red, domain=-30:90, smooth, variable=\x] plot ({0.3*cos(\x)}, {-6+0.3*sin(\x)});
+\draw[ultra thick, pink, fill=pink, domain=90:210, smooth, variable=\x] plot ({0.3*cos(\x)}, {-6+0.3*sin(\x)});
+\draw[ultra thick, black, fill=black, domain=210:330, smooth, variable=\x] plot ({0.3*cos(\x)}, {-6+0.3*sin(\x)});
+\coordinate (H1) at (-3,-0.25);
+\coordinate (H2) at (-3,0.25);
+\draw[thick] (H1)--(H2);
+\draw[ultra thick, violet, fill=violet, domain=-30:90, smooth, variable=\x] plot ({-3+0.3*cos(\x)}, {0.3*sin(\x)});
+\draw[ultra thick, blue, fill=blue, domain=90:210, smooth, variable=\x] plot ({-3+0.3*cos(\x)}, {0.3*sin(\x)});
+\draw[ultra thick, teal, fill=teal, domain=210:330, smooth, variable=\x] plot ({-3+0.3*cos(\x)}, {0.3*sin(\x)});
+\coordinate (I1) at (3,-0.25);
+\coordinate (I2) at (3,0.25);
+\draw[thick] (I1)--(I2);
+\draw[ultra thick, brown, fill=brown, domain=-30:90, smooth, variable=\x] plot ({3+0.3*cos(\x)}, {0.3*sin(\x)});
+\draw[ultra thick, yellow, fill=yellow, domain=90:210, smooth, variable=\x] plot ({3+0.3*cos(\x)}, {0.3*sin(\x)});
+\draw[ultra thick, lime, fill=lime, domain=210:330, smooth, variable=\x] plot ({3+0.3*cos(\x)}, {0.3*sin(\x)});
+\coordinate (J1) at (-0.8,1.25);
+\coordinate (J2) at (-0.8,0.75);
+\draw[thick] (J1)--(J2);
+\draw[ultra thick, red, fill=red, domain=-30:90, smooth, variable=\x] plot ({-0.8+0.3*cos(\x)}, {1+0.3*sin(\x)});
+\draw[ultra thick, yellow, fill=yellow, domain=90:210, smooth, variable=\x] plot ({-0.8+0.3*cos(\x)}, {1+0.3*sin(\x)});
+\draw[ultra thick, pink, fill=pink, domain=210:330, smooth, variable=\x] plot ({-0.8+0.3*cos(\x)}, {1+0.3*sin(\x)});
+\coordinate (K1) at (0.8,1.25);
+\coordinate (K2) at (0.8,0.75);
+\draw[thick] (K1)--(K2);
+\draw[ultra thick, black, fill=black, domain=-30:90, smooth, variable=\x] plot ({0.8+0.3*cos(\x)}, {1+0.3*sin(\x)});
+\draw[ultra thick, cyan, fill=cyan, domain=90:210, smooth, variable=\x] plot ({0.8+0.3*cos(\x)}, {1+0.3*sin(\x)});
+\draw[ultra thick, orange, fill=orange, domain=210:330, smooth, variable=\x] plot ({0.8+0.3*cos(\x)}, {1+0.3*sin(\x)});
+\coordinate (L1) at (-1,-1.25);
+\coordinate (L2) at (-1,-0.75);
+\draw[thick] (L1)--(L2);
+\draw[ultra thick, brown, fill=brown, domain=-30:90, smooth, variable=\x] plot ({-1+0.3*cos(\x)}, {-1+0.3*sin(\x)});
+\draw[ultra thick, orange, fill=orange, domain=90:210, smooth, variable=\x] plot ({-1+0.3*cos(\x)}, {-1+0.3*sin(\x)});
+\draw[ultra thick, lime, fill=lime, domain=210:330, smooth, variable=\x] plot ({-1+0.3*cos(\x)}, {-1+0.3*sin(\x)});
+\coordinate (M1) at (1,-1.25);
+\coordinate (M2) at (1,-0.75);
+\draw[thick] (M1)--(M2);
+\draw[ultra thick, violet, fill=violet, domain=-30:90, smooth, variable=\x] plot ({1+0.3*cos(\x)}, {-1+0.3*sin(\x)});
+\draw[ultra thick, blue, fill=blue, domain=90:210, smooth, variable=\x] plot ({1+0.3*cos(\x)}, {-1+0.3*sin(\x)});
+\draw[ultra thick, teal, fill=teal, domain=210:330, smooth, variable=\x] plot ({1+0.3*cos(\x)}, {-1+0.3*sin(\x)});
+\foreach \N in {G,H,I,J,K,L,M}
+\draw[white,fill=white] (\N) circle (0.19cm);
+\end{tikzpicture}
+\end{figure}
+</latex-image>
+    </image>
+</figure>
+
+<p>In fact, it is known that the fractional chromatic number of the Moserr spindle is 3.5. This is because the Moser spindle has 7 vertices and the independence number 2. This was first observed in 1992 by David Fisher and Daniel Ullman.</p>
+
+<figure xml:id="fig_Moser-frac-7-2">
+    <caption>A graph isomorphic to the Moser spindle together with its proper <m>7/2</m> colouring </caption>
+    <image width="40%">
+           <latex-image> 
+\begin{tikzpicture}[scale=0.4]
+%\providecommand* \angle {30}
+%\draw[step=1.0,gray!60,ultra thin, dashed] (-2.5,0.5) grid (2.5,3.8);
+\coordinate (A) at (0,3.46);
+\coordinate (B) at (-2,0);
+\coordinate (C) at (0,0);
+\coordinate (D) at (2,0);
+\coordinate (E) at (-1,-3.3);
+\coordinate (F) at (1,-3.3); 
+%\draw[ultra thick] (A)--(B)--(E)--(C)--(F)--(D)--(A);
+%\draw[ultra thick] (B)--(C)--(D);
+%\draw[ultra thick] (A)--(C);
+%\draw[ultra thick, domain=-73:253, smooth, variable=\x] plot ({3.46*cos(\x)}, {3.46*sin(\x)});
+\coordinate (G) at (0,-6);
+\coordinate (H) at (-3,0);
+\coordinate (I) at (3,0);
+\coordinate (J) at (-1,-1);
+\coordinate (K) at (-0.8,1);
+\coordinate (L) at (1,-1); 
+\coordinate (M) at (0.8,1); 
+\foreach \N in {H,I,J,L}
+\draw[thick] (G)--(\N);
+\draw[thick] (J)--(H)--(K)--(J);
+\draw[thick] (K)--(M)--(I)--(L)--(M);
+\foreach \N in {G,H,I,J,K,L,M}
+\draw[red, fill=yellow] (\N) circle (0.15cm);
+\coordinate (G1) at (0,-6.25);
+\coordinate (G2) at (0,-5.75);
+\draw[thick] (G1)--(G2);
+\draw[ultra thick, orange, fill=orange, domain=-90:90, smooth, variable=\x] plot ({0.25*cos(\x)}, {-6+0.25*sin(\x)});
+\draw[ultra thick, blue, fill=blue, domain=90:270, smooth, variable=\x] plot ({0.25*cos(\x)}, {-6+0.25*sin(\x)});
+\coordinate (H1) at (-3,-0.25);
+\coordinate (H2) at (-3,0.25);
+\draw[thick] (H1)--(H2);
+\draw[ultra thick, gray, fill=gray, domain=-90:90, smooth, variable=\x] plot ({-3+0.25*cos(\x)}, {0.25*sin(\x)});
+\draw[ultra thick, green, fill=green, domain=90:270, smooth, variable=\x] plot ({-3+0.25*cos(\x)}, {0.25*sin(\x)});
+\coordinate (I1) at (3,-0.25);
+\coordinate (I2) at (3,0.25);
+\draw[thick] (I1)--(I2);
+\draw[ultra thick, red, fill=red, domain=-90:90, smooth, variable=\x] plot ({3+0.25*cos(\x)}, {0.25*sin(\x)});
+\draw[ultra thick, green, fill=green, domain=90:270, smooth, variable=\x] plot ({3+0.25*cos(\x)}, {0.25*sin(\x)});
+\coordinate (J1) at (-0.8,1.25);
+\coordinate (J2) at (-0.8,0.75);
+\draw[thick] (J1)--(J2);
+\draw[ultra thick, blue, fill=blue, domain=-90:90, smooth, variable=\x] plot ({-0.8+0.25*cos(\x)}, {1+0.25*sin(\x)});
+\draw[ultra thick, yellow, fill=yellow, domain=90:270, smooth, variable=\x] plot ({-0.8+0.25*cos(\x)}, {1+0.25*sin(\x)});
+\coordinate (K1) at (0.8,1.25);
+\coordinate (K2) at (0.8,0.75);
+\draw[thick] (K1)--(K2);
+\draw[ultra thick, gray, fill=gray, domain=-90:90, smooth, variable=\x] plot ({0.8+0.25*cos(\x)}, {1+0.25*sin(\x)});
+\draw[ultra thick, orange, fill=orange, domain=90:270, smooth, variable=\x] plot ({0.8+0.25*cos(\x)}, {1+0.25*sin(\x)});
+\coordinate (L1) at (-1,-1.25);
+\coordinate (L2) at (-1,-0.75);
+\draw[thick] (L1)--(L2);
+\draw[ultra thick, red, fill=red, domain=-90:90, smooth, variable=\x] plot ({-1+0.25*cos(\x)}, {-1+0.25*sin(\x)});
+\draw[ultra thick, pink, fill=pink, domain=90:270, smooth, variable=\x] plot ({-1+0.25*cos(\x)}, {-1+0.25*sin(\x)});
+\coordinate (M1) at (1,-1.25);
+\coordinate (M2) at (1,-0.75);
+\draw[thick] (M1)--(M2);
+\draw[ultra thick, yellow, fill=yellow, domain=-90:90, smooth, variable=\x] plot ({1+0.25*cos(\x)}, {-1+0.25*sin(\x)});
+\draw[ultra thick, pink, fill=pink, domain=90:270, smooth, variable=\x] plot ({1+0.25*cos(\x)}, {-1+0.25*sin(\x)});
+\end{tikzpicture}
+\end{figure}
+</latex-image>
+    </image>
+</figure>
+<p> Observe that the fact that <m>\chi_f(MS)=3.5</m> implies that <m>\chi_f(\mathbb{R}^2)\geq 3.5</m>.
+</p>
+</example>
+<p><m>\textbf{References:}</m></p>
+<p>Bellitto, T., P&#234;cher, A., and  S&#233;dillot, A. (2020). On the density of sets of the Euclidean plane avoiding
+distance 1. <url href="https://arxiv.org/abs/1810.00960">https://arxiv.org/abs/1810.00960</url> </p>
+<p> Cranston, D. W.,  Rabern, L. (2017). The fractional chromatic number of the plane. Combinatorica. 37(5): 837-861.</p>
+<p>Hochberg, R., O'Donnell, P. (1993). A large independent set in the unit distance graph.  Geombinatorics. 2(4):83-84.</p>
+<p>D. Fisher and D. Ullman. (1992). The fractional chromatic number of the plane. Geombinatorics, 2(1):8-12.</p>
+</section>
+
+<section>
+<title>Density of planar sets avoiding unit distance</title>
+<p></p>
+<p> The density of a planar set avoiding unit distances is a concept that has been studied for many decades and was first proposed by Leo Moser. The question that still trills mathematicians is: <q>What is <m>m_{1}(\mathbb{R}^2)</m>, the maximum density of a measurable set in the plane that does not contain a unit-distance pair?</q> 
+</p>
+<p>
+The problem was popularized by Erd&#337;s  who stated that it <q>seems likely</q> that <m>m_{1}(\mathbb{R}^2)</m> has an upper bound of <m>1/4</m>.  </p>
+<p>
+To give an intuitive example of how we can find the density of <m>\mathbb{R}^2</m>, consider packing the Euclidean plane with unit circles (circles with radius 1) in figure. In each unit circle, we put another circle of radius <m>1/2</m> and note that the points in the blue circles of figure are all non-unit distance.
+</p>
+
+<figure xml:id="fig_Circles">
+    <caption>An <q>easy</q> lower bound for <m>m_{1}(\mathbb{R}^2)</m></caption>
+    <image width="40%">
+           <latex-image> 
+           \fbox
+           {
+\begin{tikzpicture}[domain=-1:5.7][scale=0.7]
+%\providecommand* \angle {30}
+%\draw[step=1.0,gray!60,ultra thin, dashed] (-2.5,0.5) grid (2.5,3.8);
+\coordinate (A) at (0,0);
+\coordinate (B) at (0,-2);
+\coordinate (C) at (0,2);
+\coordinate (D) at (1.73,1);
+\coordinate (E) at (1.73,3);
+\coordinate (F) at (1.73,-1); 
+\coordinate (G) at (1.73,-3);
+\coordinate (H) at (3.46,0);
+\coordinate (I) at (3.46,2);
+\coordinate (J) at (3.46,-2);
+\coordinate (K) at (5.19,1);
+\coordinate (L) at (5.19,3); 
+\coordinate (M) at (5.19,-1); 
+\coordinate (N) at (5.19,-3); 
+%\foreach \N in {A,B,C,D,E,F,G,H,I,J,K,L,M,O}
+\foreach \N in {A,B, ...,N}
+\draw[red, fill=yellow] (\N) circle (1cm);
+\draw[red, fill=yellow, domain=-175:5, smooth, variable=\x] plot ({3.46+cos(\x)}, {4+sin(\x)});
+\draw[red, fill=yellow, domain=-5:185, smooth, variable=\x] plot ({3.46+cos(\x)}, {-4+sin(\x)});
+\draw[red, fill=yellow, domain=-175:5, smooth, variable=\x] plot ({cos(\x)}, {4+sin(\x)});
+\draw[red, fill=yellow, domain=-5:185, smooth, variable=\x] plot ({cos(\x)}, {-4+sin(\x)});
+\end{tikzpicture}
+}
+\fbox
+           {
+\begin{tikzpicture}[domain=-1:5.7][scale=0.7]
+%\providecommand* \angle {30}
+%\draw[step=1.0,gray!60,ultra thin, dashed] (-2.5,0.5) grid (2.5,3.8);
+\coordinate (A) at (0,0);
+\coordinate (B) at (0,-2);
+\coordinate (C) at (0,2);
+\coordinate (D) at (1.73,1);
+\coordinate (E) at (1.73,3);
+\coordinate (F) at (1.73,-1); 
+\coordinate (G) at (1.73,-3);
+\coordinate (H) at (3.46,0);
+\coordinate (I) at (3.46,2);
+\coordinate (J) at (3.46,-2);
+\coordinate (K) at (5.19,1);
+\coordinate (L) at (5.19,3); 
+\coordinate (M) at (5.19,-1); 
+\coordinate (N) at (5.19,-3); 
+%\foreach \N in {A,B,C,D,E,F,G,H,I,J,K,L,M,O}
+\foreach \N in {A,B, ...,N}
+\draw[red, fill=yellow] (\N) circle (1cm);
+\foreach \N in {A,B, ...,N}
+\draw[fill=blue] (\N) circle (0.5cm);
+\draw[red, fill=yellow, domain=-175:5, smooth, variable=\x] plot ({3.46+cos(\x)}, {4+sin(\x)});
+\draw[red, fill=yellow, domain=-5:185, smooth, variable=\x] plot ({3.46+cos(\x)}, {-4+sin(\x)});
+\draw[red, fill=yellow, domain=-175:5, smooth, variable=\x] plot ({cos(\x)}, {4+sin(\x)});
+\draw[red, fill=yellow, domain=-5:185, smooth, variable=\x] plot ({cos(\x)}, {-4+sin(\x)});
+\draw[fill=blue, domain=-175:5, smooth, variable=\x] plot ({3.46+0.5*cos(\x)}, {4+0.5*sin(\x)});
+\draw[fill=blue, domain=-5:185, smooth, variable=\x] plot ({3.46+0.5*cos(\x)}, {-4+0.5*sin(\x)});
+\draw[fill=blue, domain=-175:5, smooth, variable=\x] plot ({0.5*cos(\x)}, {4+0.5*sin(\x)});
+\draw[fill=blue, domain=-5:185, smooth, variable=\x] plot ({0.5*cos(\x)}, {-4+0.5*sin(\x)});
+\end{tikzpicture}
+}
+
+</latex-image>
+    </image>
+</figure>
+<p> To find the density, i.e the portion of the part of the plane covered by unit circles we consider the triangulation of the plane by equilateral triangles of side 2 and with the verices at the centres of unit circles.</p>
+
+<figure xml:id="fig_Moser-2">
+    <caption>A triangle of side 2 and its intersections with three unit circles.</caption>
+    <image width="40%">
+           <latex-image> 
+
+\begin{tikzpicture}
+\draw[thick] (0,0)--(4,0)--(2,3.46)--(0,0);
+\draw[red, fill=yellow, domain=0:60, smooth, variable=\x] plot ({2*cos(\x)}, {2*sin(\x)});
+\draw[red, fill=yellow, domain=120:180, smooth, variable=\x] plot ({4+2*cos(\x)}, {2*sin(\x)});
+\draw[red, fill=yellow, domain=240:300, smooth, variable=\x] plot ({2+2*cos(\x)}, {3.46+2*sin(\x)});
+\draw[yellow, fill=yellow] (0,0)--(2,0)--(1,1.73)--(0,0);
+\draw[yellow, fill=yellow] (4,0)--(2,0)--(3,1.73)--(4,0);
+\draw[yellow, fill=yellow] (2,3.46)--(3,1.73)--(1,1.73)--(2,3.46);
+\draw[dashed,->] (0,-0.25)--(2,-0.25);
+\draw (1,-0.25) node[below, scale=0.7]{$1$};
+\end{tikzpicture}
+
+</latex-image>
+    </image>
+</figure>
+<p>Recall that the vertices of the triangle are the centres of unit circles and observe that the area of the intersection of the triangle and the circles is given by <m>3\cdot\frac{1^2\cdot \frac{\pi}{3}}{2}=\frac{\pi}{2}</m>.
+</p>
+<p>
+Since the area of the equilateral triangle of side 2 equals to <m>\sqrt{3}</m> it follows that the proportion of the triangle covered by its intersections with the unit circles is
+<me>\frac{\mbox{Area of the intersection}}{\mbox{Area of the triangle}}=\frac{\frac{\pi}{2}}{\sqrt{3}}=\frac{\pi}{2\sqrt{3}}\approx 0.9069.</me>
+</p>
+Since this is true for any triangle in the this particular triangulation of the plane we conclude that the density of a unit circle packing in the Euclidean plane is about <m>0.9069</m>.
+
+<figure xml:id="fig_Moser-2">
+    <caption>A closer look: Blue circles with no boundary and radius <m>0.5</m>.</caption>
+    <image width="40%">
+           <latex-image> 
+
+\begin{tikzpicture}
+\coordinate (A) at (0,0);
+\coordinate (B) at (0,2);
+\coordinate (C) at (1.73,1);
+\foreach \N in {A,B, C}
+\draw[red, fill=yellow] (\N) circle (1cm);
+\foreach \N in {A,B, C}
+\draw[ultra thick, red,dashed,fill=blue] (\N) circle (0.5cm);
+\draw (A) circle (0.02cm);
+\draw[thick,->, dashed](0,0)--(1,0);
+\draw (0.75,0) node[above,scale=0.7]{$1$};
+\draw[thick,->, dashed](0,0.5)--(0,1.5);
+\draw (0.2,1.25) node[scale=0.7]{{\small $1$}};
+\end{tikzpicture}
+
+</latex-image>
+    </image>
+</figure>
+<p>Observe that the area of each blue circle takes <m>\frac{0.5^2\pi}{\pi}=\frac{1}{4}</m> of the area of the yellow circle. Hence  the density of the set covered by blue circles in the Euclidean plane is equal to one quarter of the density of the set covered by yellow circles</p>.
+<p>
+In other words,
+<me>m_1(\mathbb{R}^2)\gt \frac{1}{4}\cdot 0.9069\approx 0.2267.</me>
+</p>
+
+<p>
+The history of finding the upper and lower bounds of the density of planar sets is quite interesting as many different techniques are used. 
+</p>
+<p>
+In 2010 Oliveira Filho and Vallentin used a combination of linear programming and Fourier analysis to prove <m>m_{1}(\mathbb{R}^2) \leq 0.268</m>. 
+</p>
+<p>In 2020  Bellitto, P&#234;cher, and  S&#233;dillot studied the fractional number of the plane together with the density of the sets that avoid unit distances to show that <m>m_{1}(\mathbb{R}^2) \leq 0.25646</m>. The best current known upper bound is <m>0.25442</m> found by Gergely Ambrus and M&#225;t&#234; Matolcsi in their 2020 paper <q>Density Estimates of 1-Avoiding Sets Via Higher Order Correlations</q>. </p>
+
+<p>We are getting closer and closer to Erd&#337;s conjecture that  <m>m_{1}(\mathbb{R}^2)\lt 0.25</m> many decades ago!</p>
+
+<p>Above we  have shown how to obtain the lower bound of <m>m_{1}(\mathbb{R}^2) \geq 0.2267</m>. 
+</p>
+<p>
+The best current known lower bound is <m>0.229</m> which was achieved by Croft in 1967. 
+</p>
+<p><m>\textbf{References:}</m></p>
+<p>Ambrus, G. and Matolcsi, M. (2020). Density estimates of 1-avoiding sets via higher order correlations.  <url href="https://arxiv.org/abs/1809.05453">https://arxiv.org/abs/1809.05453</url></p> 
+<p>Bellitto, T., P&#234;cher, A., and  S&#233;dillot, A. (2020). On the density of sets of the Euclidean plane avoiding
+distance 1. <url href="https://arxiv.org/abs/1810.00960">https://arxiv.org/abs/1810.00960</url> </p>
+<p>Croft, H.T. (1967). Incidence incidents. Eureka 30, 22-26.</p>
+<p>de Oliveira Filho, F.M.  and Vallentin, F. (2010). Fourier analysis, linear programming, and densities
+of distance-avoiding sets in <m>\mathbb{R}^n</m>, Journal of the European Mathematical Society 12, 
+1417-1428.</p>
+<p> R. Hochberg and P. O'Donnell. (1993). A large independent set in the unit distance graph. Geombinatorics,
+2(4):83-84.</p>
+</section>
+</chapter>

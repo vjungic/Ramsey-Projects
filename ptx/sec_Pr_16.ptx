@@ -1,0 +1,49 @@
+<chapter xml:id="sec_Pr_16">
+<title>Music on the Theme of van der Waerden's Theorem</title>
+
+<introduction>
+<title>Project by:  <em>Leifshane Estrada</em>, <em>Vanessa Gottfriedson</em>, and  <em>Matthew Tong</em></title>
+</introduction>
+<p></p>
+<p><m>\textbf{Summary:}</m> We have created an original piece of music inspired by van der Waerden's theorem.</p>
+
+<p>Following Motzkin's definition of Ramsey theory thet <q>complete disorder is impossible</q>, we have demonstrated the essence of van der Waerden's theorem, i.e the fact that for any finite colouring of the set of natural numbers there exist long monochromatic arithmetic progressions, throughout our musical piece.</p>
+<p>
+We decided to create a chaotic arrangement of melodies to form the base of musical piece. On top of the chaos, we introduce some recurring musical motifs, in order to create traces of regular and predictable patterns within the chaotic melodies.</p>
+<p>
+In the demo below, each 7-bar segment is made of two short number sequences. Each sequence contains 27 natural numbers, which are randomly generated between 1 to 3, and all the numbers are assigned to 3 colours(i.e. <m>1=\mbox{Red}</m>, <m>2=\mbox{Green}</m> , <m>3=\mbox{Green}</m>. According to the van der Waerden number <m>W(3;3)=27</m>, there must exist a 3-term monochromatic arithmetic progression in each short sequence.</p>
+
+<figure>
+<caption>An example of our sequence</caption>
+<image width="80%"  source="images/Music.png"/>
+</figure>
+
+<p> Then the numbers (and their respective colour) are mapped to notes in a musical scale. By doing so, we obtained short melodies that are made from the original number sequences, and the monochromatic arithmetic progressions in each sequence have now become musical phrases. I terms of pitch, since all the notes are really close to each other, it is difficult to distinguish them individually when they are played up to speed, hence, giving the piece a chaotic sound. However, when the audience listens closely, each person will be able to hear reoccurring phrases, which are the monochromatic arithmetic progressions in the original number sequence.</p>
+
+<p>However, the recent discovery was based on a graph of over a thousand vertices whereas the Moser Spindle has only seven vertices. These two graphs emphasize a similar idea to the Ramsey Numbers, being that sometimes something exists, but it is difficult to find the answer without advanced computing.
+</p>
+<p>
+All in all, the purpose of this project is to show that in Ramsey's theory, any chaotic mathematical behaviour contains traces of regular and predictable patterns. In other words, complete chaos is impossible.
+
+</p>
+<p>
+<q>The randomness comes from atmospheric noise, which for many purposes is better than the pseudorandom number algorithms typically used in computer programs.</q> (Haahr, 1998)
+</p>
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Music" youtube="1GAVsWQeXhk"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="Music" vimeo="495548801"/> 
+ <p></p>
+</sidebyside>
+<p>
+</p>
+
+</chapter>

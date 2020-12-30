@@ -1,0 +1,141 @@
+<chapter xml:id="sec_Pr_04">
+<title>Order to Chaos: The Evolution of Ramsey Theory</title>
+<introduction>
+<title>Project by:  <em>Julia Bechert</em>,  <em>Carol-lynn Ge</em>,  <em>Nicole Oishi</em>,  <em>Aaikriti Sharma</em>,  and  <em>Megan Wong</em></title>
+
+<p><m>\textbf{Summary:}</m> The main goal of our Ramsey theory project is to take our viewers on a journey through the key theory, enriching their understanding of math and history in an entertaining way. Our video includes recordings of drawings of our beloved mathematicians and simple proofs of their theorems. We have chosen to focus our work on mathematicians Frank Ramsey, Bartel van der Waerden, Issai Schur, Richard Rado, and briefly Alfred Hales and Robert Jewett and their biggest contributions to Ramsey theory. Our goal was to simplify some of Ramsey theory to be more easily understood, mostly through the usage of drawn examples. 
+</p>
+<p> The history of the evolution of Ramsey theory is tied to the key theorems. We hope that included interesting historical facts in conjunction with the simple visual explanations of theorems will help our peers and future see the bigger picture of the course
+</p>
+
+<p></p>
+
+<sidebyside widths="5% 90% 5%">
+ <p></p>
+    <video  xml:id="order-to-chaos" vimeo="494342998"/> 
+ <p></p>
+</sidebyside>
+
+<p>
+</p>
+</introduction>
+<section  xml:id="ssec_Script">
+<title>Script</title>
+<p><m>{\Large {\textbf{Introduction:}}}</m> Welcome to drawing the evolution of Ramsey Theory! Ramsey theory itself takes a look at the mathematics of colouring and our fundamental question: Can we find order to the chaos?</p>
+<p>
+We will take a look at this course in a non-chronological matter. Each notable mathematician who contributed to Ramsey theory is connected together to display the concept of complete chaos. 
+
+</p>
+<p></p>
+<p><m>{\Large {\textbf{Frank Ramsey:}}}</m> We begin our story of Ramsey theory in Cambridge, England where Frank Ramsey was born in 1903. He studied at Trinity College earning himself senior scholar with a first-class degree in Mathematics. Before his untimely death, Ramsey sat down and crafted arguably his most notable contribution to Math history in his paper <q>On a Problem of Formal Logic.</q> 
+</p>
+<p>
+In order to grasp Ramsey's theorem, we will do a quick introduction to the pigeonhole principle with an example.</p>
+<p> Say we have 9 pigeonholes and 10 pigeons. When placing each pigeon into their own individual pigeonhole we will be left with one pigeon that must share a pigeonhole. This is one way of visualizing the pigeonhole principle which states <q>suppose you have <m>k</m> pigeonholes and <m>n</m> pigeons to be placed in them. If <m>n>k</m> then at least one pigeonhole contains at least two pigeons.</q></p>
+<p>
+Ramsey's theorem: A special case of Ramsey's theorem states that for any edge 2-colouring of the complete graph <m>K_6</m> will yield a monochromatic <m>K_3</m>. </p>
+<p>A real world understanding of Ramsey's theorem can be demonstrated by considering 6 individual people. The relationships between them create a complete graph on the 6 vertices or people. What we want to show is that if we consider a blue edge between two people to mean they are friends and a red edge to represent strangers that there exists either 3 strangers or 3 friends in any group of 6. </p>
+<p>We can see by considering the relationships between one individual and the 5 others in the group. By the pigeonhole principle, we can see a 2 colouring of these relations will result in at least 3 edges of the same colour, say blue. If any one of the edges between the 3 connected vertices is blue we have a resulting monochromatic <m>K_3</m> or 3 friends. If none of the 3 edges are blue and instead red then we again have a <m>K_3</m>, but in this case 3 strangers proving this special case of Ramsey's theorem. </p>
+<p>
+Let's go back in time to 1927 in Amsterdam where we will meet our next big contributor in Ramsey theory.</p>
+<p></p>
+<p><m>{\Large {\textbf{Bartel van der Waerden:}}}</m> Bartel van der Waerden was born in 1903 to a family of mathematicians. He stuck closely to the field of mathematics all throughout his childhood before entering the University of Amsterdam where he also completed his doctorate. </p>
+<p>van der Waerden's theorem, published in 1927, was a proof of Baudet?s conjecture. While one of the earliest theorems of Ramsey theory, it is most easily understood when considering the later discovered Ramsey theorem. </p>
+
+<p><m>\textbf{van der Waerden's Theorem:}</m> For any integers <m>i</m> and <m>k</m> there is some number <m>N</m> such that the colouring of the integers <m>\{1, 2,\ldots , N\}</m> with <m>k</m> different colours, results in a monochromatic <m>i</m>-term arithmetic progression.</p>
+
+<p><m>\textbf{Example:}</m>  Let's take the integers <m>1-8</m> as an example, we can colour these using two colours and avoid any 3-term monochromatic arithmetic progressions. However, when we add 9, now we have either a blue 3-term arithmetic progression on the integers 1, 5, and 9, or we have a red 3-term arithmetic progression on the integers 3, 6, and 9. </p>
+
+<p>Turning back the clocks once more, we are in 1917. This is the year Issai Schur published the earliest theorem in Ramsey theory.</p>
+<p></p>
+<p><m>{\Large {\textbf{Issai Schur:}}}</m> Issai Schur was a Russian-born mathematician who worked in Germany for most of his life. He was born on January 10, 1875 in Mogilev, Russia (now Belarus). He was born to a merchant family, his father Moses Schur and mother Golde. He became fluent in German when he went to Latvia at the age of 13 and attended the Gymnasium in Libau. </p>
+<p>In 1894, Schur entered the University of Berlin, with concentration in mathematics and physics.</p>
+<p>
+Schur's Theorem was found while trying to solving Fermat's Last Theorem. He however, failed to prove it, but instead published Schur's theorem in his 1916 paper. His theorem was not recognized on its own until later on from its discovery.  </p>
+
+<p>Schur's Theorem actually preceded Ramsey?s theorem, as it was published in 1916.</p>
+<p>The main idea of this theorem is that the set of positive <m>N</m> integers, for  <m>N</m>  big enough, if finitely covered, then you can always have three numbers <m>x,y</m>,and <m>z</m> that have the same colour such that <m>x+y=z</m>. We are now looking at a set of colours defined <m>c_1,c_2,\ldots ,c_r</m>. </p>
+<p>Let us see this theorem in practice.</p>
+<p>Let's take an example, with a <m>2</m>-colouring of red and blue of interval <m>[1,5]</m>  and see if we can avoid monochromatic Schur triple:
+We see that <m>1,1,2</m> and <m>2,2,4</m> are Schur triples.
+</p>
+
+<p></p>
+<p><m>{\Large {\textbf{Richard Rado:}}}</m>  In Richard Rado's 1933 thesis, <em>Studien zur Kombinatorik</em>, he generalised a basic result, proved by his supervisor Issai Schur which gives what is known today as Rado's Theorem. </p>
+
+<p>Schur's theorem was generalized by Rado. For Rado, Schur's theorem was about monochromatic solutions of a homogeneous linear equation <m>x+y-z=0</m>, and so Rado generalized the Schur Theorem to a vast class of homogeneous linear equations.</p>
+
+<p>Now, we will state Rado's theorem: The equation <m>c_1 x_1 + c_2 x_2 + \ldots + c_n x_n = 0</m> is partition regular over <m>\mathbb{N}</m> if and only if there is <m>J \subseteq [n]</m> such that 
+<m>\sum_{i\in J}c_i=0.</m>
+</p>
+  
+<p>We now move across the water to America where at California Institute of Technology, </p>
+
+<p></p>
+<p><m>{\Large {\textbf{Hales-Jewett:}}}</m> Alfred W. Hales and Robert I. Jewett are American mathematicians who met at Caltech university during their graduate studies. They became fast friends over their joint love for mathematics and volleyball. This then led them to create the Hales-Jewett Theorem in 1963.</p>
+<p><m>\textbf{The Hales-Jewett Theorem:}</m>  Let <m>m, k \in \mathbb{N}</m> and let  <m>A</m> be an alphabet on <m>m</m> symbols. There exists an <m>n \in \mathbb{N}</m> such that whenever <m>A^n</m> is <m>k</m>-coloured there exists a monochromatic line.</p>
+<p>
+This theorem is integral to Ramsey Theory;  it is one of the most useful techniques of Ramsey theory and it has played an important role in the different proofs of theorems related to Ramsey theory, but ultimately, it is a big reason for what turned Ramseyan theorems into Ramsey theory.</p>
+<p>
+And with the closing of Hales-Jewett Theorem, that brings an end to our video on Ramsey theory. We hope this brings some order to the chaos! 
+</p>
+
+</section>
+<section>
+<title>References</title>
+<p>
+<ol>
+<li>
+<p>
+O'Connor, J. J., and Robertson, E. F. (2005). Richard Rado - Biography. Retrieved October 18, 2020, from <url href="http://www.https://mathshistory.st-andrews.ac.uk/Biographies/Rado_Richard/">https://mathshistory.st-andrews.ac.uk/Biographies/Rado_Richard/</url>
+</p>
+</li>
+<li>
+<p>
+O'Connor, J. J., and  Robertson, E. F. (1998). Issai Schur - Biography. Retrieved October 18, 2020, from <url href="https://mathshistory.st-andrews.ac.uk/Biographies/Schur/">https://mathshistory.st-andrews.ac.uk/Biographies/Schur/</url>
+</p>
+</li>
+<li>
+<p>
+O'Connor, J. J., and Robertson, E. F. (2009). Bartel van der Waerden - Biography. Retrieved October 09, 2020, from <url href="https://mathshistory.st-andrews.ac.uk/Biographies/Van_der_Waerden/">https://mathshistory.st-andrews.ac.uk/Biographies/Van_der_Waerden/</url>
+</p>
+</li>
+<li>
+<p>
+O'Connor, J. J., and Robertson, E. F. (2003). Frank Ramsey - Biography. Retrieved September 20, 2020, from <url href="https://mathshistory.st-andrews.ac.uk/Biographies/Ramsey/">https://mathshistory.st-andrews.ac.uk/Biographies/Ramsey/</url>
+</p>
+</li>
+<li>
+<p>
+Landman, B. M., and Robertson, A. (2015). Ramsey theory on the integers. Providence, RI: AMS, American Mathematical Society.
+</p>
+</li>
+<li>
+<p>
+Soifer, A. (2009). The mathematical coloring book: Mathematics of coloring and the colorful life of its creators. New York, NY: Springer.
+</p>
+</li>
+<li>
+<p>
+Alfred W. Hales. (2020, April 13). Retrieved November 09, 2020, from <url href="https://en.wikipedia.org/wiki/Alfred_W._Hales">https://en.wikipedia.org/wiki/Alfred_W._Hales</url>
+</p>
+</li>
+<li>
+<p>
+Hales-Jewett theorem. (2020, August 12). Retrieved November 09, 2020, from <url href="https://en.wikipedia.org/wiki/Hales%E2%80%93Jewett_theorem">https://en.wikipedia.org/wiki/Hales%E2%80%93Jewett_theorem</url>
+</p>
+</li>
+<li>
+<p>
+Jungic, V. (n.d.). Introduction to Ramsey Theory: Lecture notes for undergraduate course. Retrieved November 09, 2020, from  <url href="http://www.sfu.ca/~vjungic/RamseyNotes/sec_HJ2.html">http://www.sfu.ca/~vjungic/RamseyNotes/sec_HJ2.html</url>
+</p>
+</li>
+<li>
+<p>
+<url href="http://www.ti.inf.ethz.ch/ew/courses/extremal04/razen.pdf">The Hales-Jewett Theorem - by Andreas Razen</url>
+</p>
+</li>
+</ol>
+</p>
+</section>
+</chapter>
