@@ -5,7 +5,7 @@
 <title>Project by:  <em>Liam Erdos</em>, <em>Linda Kingsman</em>, and  <em>, Shubham Setia</em></title>
 
 <p></p>
-<p><m>\textbf{Summary:}</m>We were assigned to create a play about Ramsey theory and were tasked to create a story surrounding our course material. </p>
+<p><m>\textbf{Summary: }</m>We were assigned to create a play about Ramsey theory and were tasked to create a story surrounding our course material. </p>
 <p>
 The idea of adopting <q>Three pearls of Number Theory</q> by  Aleksandr Yakovlevich Khinchin was initially suggested by Dr. Jungic, and after reading through the book, we were all excited to dive into this project. 
 </p>
@@ -18,7 +18,7 @@ During the initial stages of the semester, we focused on the structure of our pl
 Below is the final script of our play. Thank you Dr. J for this wonderful idea, as well as this enjoyable course. This has been the highlight of my online learning experience. 
 </p>
 <p><m>\textbf{References:}</m></p>
-<p>  Brauer, A. (1955). <url href="https://www.ams.org/journals/bull/1955-61-04/S0002-9904-1955-09940-3/S0002-9904-1955-09940-3.pdf">Review: Three Pearls of Number Theory by A. Y. Khinchin (PDF)</url>. Bull. Amer. Math. Soc. 61 (4): 351?353.</p>
+<p>  Brauer, A. (1955). <url href="https://www.ams.org/journals/bull/1955-61-04/S0002-9904-1955-09940-3/S0002-9904-1955-09940-3.pdf">Review: Three Pearls of Number Theory by A. Y. Khinchin (PDF)</url>. Bull. Amer. Math. Soc. 61 (4): 351-353.</p>
 
 <p>Khinchin, A. Y. (1998). Three Pearls of Number Theory. Dover Publications.</p>
 <p> Klyeve, D. <url href="https://www.maa.org/press/maa-reviews/three-pearls-of-number-theory">Review: Three Pearls of Number Theory by A. Y. Khinchin </url>.MAA Reviews.</p>
@@ -39,7 +39,7 @@ Below is the final script of our play. Thank you Dr. J for this wonderful idea, 
 <title>Script</title>
 <p></p>
 
-<p><em>Part 1</em></p>
+<p><alert>Part 1</alert></p>
 <blockquote>
 <p><m>\textbf{Scene:}</m> Seryozha is lying in bed. He has a bandage around his head. He is wounded from battle. He is trying to sleep but cannot. He picks up a crossword but throws it down after a second in frustration. He picks up a letter and writes to his old math teacher.
 </p>
@@ -58,7 +58,7 @@ Seryozha
 </em></p>
 </blockquote>
 
-<p><em>Skeleton for Khinchin - Part 2</em></p>
+<p><alert>Skeleton for Khinchin - Part 2</alert></p>
 <blockquote>
 <p><m>\textbf{Scene:}</m> Aleksandr Khinchin is in his office, sitting on his large armchair, one knee over another. He begins to read a letter he got earlier in the day and starts to read it as he drinks the last sip of coffee in his mug.</p>
 <p>Smiles as he reads the letter, and proceeds to write a letter to his student. </p>
@@ -71,7 +71,7 @@ Thank you for your letter, I am very grateful and happy that you want to continu
 Though I do not know you well, as you were only in my class for a year, and dont know your interests in Mathematics; I hope that you can find interest in the ideas and theorems I am sending to you. The methods you will use are simple arithmetic, but you will find that it will take you some time to understand these problems, as the solutions are not as simple as the methods. </em></p>
 
 
-<p><em>Alas, I am choosing to send you a pearl, which is van der Waerden?s theorem. The idea of this theorem is, if you take a set of all natural numbers, and divide into two subsets, defined by any rule (Even/Odd, Prime/Non-prime, etc.), could you assert an arithmetic progression to these subsets? This problem was first solved by a young student in Gottingen, van der Waerden. Recently, a talented Mathematician of Minsk, M. A. Lukomskaya sent me a much simpler proof of this theorem, which with her permission, I am going to show you. </em></p>
+<p><em>Alas, I am choosing to send you a pearl, which is van der Waerden's theorem. The idea of this theorem is, if you take a set of all natural numbers, and divide into two subsets, defined by any rule (Even/Odd, Prime/Non-prime, etc.), could you assert an arithmetic progression to these subsets? This problem was first solved by a young student in Gottingen, van der Waerden. Recently, a talented Mathematician of Minsk, M. A. Lukomskaya sent me a much simpler proof of this theorem, which with her permission, I am going to show you. </em></p>
 
 
 <p><em>
@@ -83,7 +83,7 @@ Yours, </em></p>
 
 </blockquote>
 
-<p><em>Lukomskaya - Part 3</em></p>
+<p><alert>Lukomskaya - Part 3</alert></p>
 <blockquote>
 <p><m>\textbf{Scene:}</m> Lukomskaya stands at the front of the room, explaining her newly discovered proof to an audience of other mathematicians.  </p>
 
@@ -93,10 +93,10 @@ Yours, </em></p>
 It is a pleasure to hear from you. Of course you may pass my proof along to your student. After all, mathematics is twice the pleasure when shared. Do send along my wishes for a quick recovery as well.
 </em></p>
 <p><em>
-You remember that when van Der Waerden?s theorem was first published, it created quite a stir, for where the best of us had failed to find a solution, a green mathematician had succeeded. Furthermore, while the result was elementary, it was hardly simple. The alternative proof I have outlined below is considerably less complicated.
+You remember that when van Der Waerden's theorem was first published, it created quite a stir, for where the best of us had failed to find a solution, a green mathematician had succeeded. Furthermore, while the result was elementary, it was hardly simple. The alternative proof I have outlined below is considerably less complicated.
 </em></p>
 <p><em>
-For posterity, van der Waerden?s theorem is as follows: Let <m>k</m> and <m>l</m> be natural numbers. Then there exists a natural number <m>n(k,l)</m> such that any <m>k</m>-coloring of the segment of positive integers of length <m>n(k,l)</m> contains a monochromatic <m>l</m>-term arithmetic progression.
+For posterity, van der Waerden's theorem is as follows: Let <m>k</m> and <m>l</m> be natural numbers. Then there exists a natural number <m>n(k,l)</m> such that any <m>k</m>-coloring of the segment of positive integers of length <m>n(k,l)</m> contains a monochromatic <m>l</m>-term arithmetic progression.
 </em></p>
 <p><em>
 In essence, we are trying to prove that there exists a function <m>f(i) = a+id</m> such that <m>f(i)</m> for all <m>0\leq i\lt l</m> are of the same colour. We do this using induction on <m>l</m>, the length of the progression. The result is trivial for <m>l = 1</m>. For <m>l = 2</m>, we only need to make sure that there are at least two elements of any colour. 

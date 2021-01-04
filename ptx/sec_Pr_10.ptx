@@ -29,6 +29,28 @@ The project is based on Hales-Jewett theorem:
 <p></p>
 <p><m>\textbf{Game:}</m> To play the game please go to <url href="https://quad-tac-toe.herokuapp.com/">Quad-Tac-Toe Game</url>.</p>
 
+<!--test (applet)>
+
+        <interactive xml:id="quad-tac-toe" platform="python" width="60%" source="output/four-by-four/app.py" preview="images/Brown.png">
+                        <slate xml:id="quad" surface="canvas" />
+                        <instructions>
+                            <p>test</p>
+                        </instructions>
+                    </interactive>
+             </figure>
+
+
+        <interactive xml:id="interactive-simple-eigenvector" platform="javascript" width="60%" source="code/austin/figures.js code/austin/simple-ev.js" preview="images/simple-eigenvector-preview.jpg">
+                        <slate xml:id="eigenvector" surface="canvas" />
+                        <instructions>
+                            <p>Let <m>\vec{x}</m> be represented by the red arrow, and <m>A\vec{x}</m> by the grey arrow, for some particular <m>2\times 2</m> matrix <m>A</m>.  Drag the <em>tip</em> of the red arrow to see the grey arrow change.</p>
+                        </instructions>
+                    </interactive>
+             </figure>
+             
+<end test-->
+
+
 <p><m>\textbf{GitHub:}</m> To access the project files please go to this <url href="https://github.com/ablondal/four-by-four">GitHub repository</url>.</p>
   
 

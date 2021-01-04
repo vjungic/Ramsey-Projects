@@ -19,29 +19,32 @@ We have learned a few things throughout working on this project.
 <p>We have also learned that this will be a project we need to get ahead of quickly. </p>
 <p>
 We came to learn recently that in creating a Wikipedia page, the page must be done all at once, and not at various times like we once thought; therefore, we needed to have all our sections done before actually creating the page. In addition, the page needed to be done and submitted fairly quickly due to Wikipedia's evaluation process. </p>
-<p>As we have now learned, after the submission of the page, the page was reviewed by a group of Wikipedia editors. Luckily, this process was completed much faster than we expected and Professor Brown's page was published before our class ended .
+<p>As we have now learned, after the submission of the page, the page was reviewed by a group of Wikipedia editors. Luckily, this process was completed much faster than we expected and Professor Brown's page was published before our class ended.
 
 
 </p>
 
 <p></p>
 
-<sidebyside widths="10% 45% 45%">
+
  <p></p>
    
+
+ <p>
 <figure>
 <caption>Link:  <url href="https://en.wikipedia.org/wiki/Tom_Brown_(mathematician)">Tom Brown's Wiki page</url></caption>
-<image source ="images/Brown.png"/>
+<image width="40%" source ="images/Brown.png"/>
 </figure>
- <p>Link:  <url href="https://en.wikipedia.org/wiki/Tom_Brown_(mathematician)">Tom Brown's Wiki page</url></p>
-</sidebyside>
+</p>
+
+
 <p>
 </p>
 </introduction>
 <section>
 <title>Interview with Professor Tom Brown</title>
 <p></p>
-<p><m>\textbf{Note:}</m>. This interview was conducted in November 2020 as part of group's work on Professor Brown's wiki page.</p>
+<p><m>\textbf{Note:}</m>. This interview was conducted in November 2020 as part of the group's work on Professor Brown's wiki page.</p>
 <p> </p>
 <p><em>What is your full name?</em></p>
 <blockquote>
@@ -134,15 +137,15 @@ done everything I had done, and more, in a better way.)
 </li>
 <li>
 <p> I asked him once in the 80s whether he had ever talked at Reed
-College. He immediately said something like ?yes, in April 1955, and I talked
-about such and such, and had an interesting conversation with so and so.?
+College. He immediately said something like <em><q>yes, in April 1955, and I talked
+about such and such, and had an interesting conversation with so and so.</q></em>
 </p>
 </li>
 <li>
 <p>He first met my wife at a math meeting in Israel. (He eventually stayed
 with us on two occasions for a few days each, during visits to Vancouver.) She
 had injured her ankle badly in Cairo the week before. When she next met him,
-two or three years later, the first thing he said was <q>How is your ankle now?</q>
+two or three years later, the first thing he said was <em><q>How is your ankle now?</q></em>
 </p>
 </li>
 </ol>
@@ -187,10 +190,10 @@ at the same time full of delight.</p>
 <blockquote>
 <p>About 1963, while a graduate student, I showed that if the positive integers
 are finitely coloured, then some colour class is piece-wise syndetic. (I promptly forgot
-about this result, and didn?t remember it until 3 years later when I needed it.)
+about this result, and didn't remember it until 3 years later when I needed it.)
 </p>
 <p>
-This turned out later to be a useful fact, and is often called <q>Brown?s Lemma,</q>
+This turned out later to be a useful fact, and is often called <q>Brown's Lemma,</q>
 especially in the semigroup literature. (See T. C Brown, <q>On van der Waerden's
 theorem on arithmetic progressions,</q> AMS Notices 16 (1969), 245, or <q>An
 Interesting Combinatorial Method in the Theory of Locally Finite Semigroups,</q>
@@ -248,7 +251,7 @@ progression,</q> Szemer&#233;di's theorem can be stated: <q>For all <m>k</m>, th
 that if <m>\{1 ,2, 3, \ldots, n\} = A \cup B</m>, and <m>|B| \geq |A|</m>, then <m>B</m> contains a <m>k</m>-term
 arithmetic progression.</q>
 </p>
-<p> Or: Using Behrend's theorem, Szemer&#233;di's theorem is
+<p> Or: using Behrend's theorem, Szemer&#233;di's theorem is
 equivalent to the statement: Let <m>k</m> be given. Then there exists <m>n</m> such that if <m>A</m> is a
 subset of <m>\{1, 2, 3, \ldots , n\}</m> with <m>\frac{|A|}{n} \gt .9999</m>, then <m>A</m> must contain a <m>k</m>-term
 arithmetic progression. (One might expect that this would be easier to prove

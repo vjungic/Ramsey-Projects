@@ -183,7 +183,7 @@ My advice to the class was: <q>The more you are sincerely curious about your pro
   </p>
 </preface>
     </frontmatter>
-     <xi:include  href="sec_Pr_01.ptx"/>
+     <!--xi:include  href="sec_Pr_01.ptx"/>
  <xi:include  href="sec_Pr_02.ptx"/> 
  <xi:include  href="sec_Pr_03.ptx"/>
  <xi:include  href="sec_Pr_04.ptx"/>
@@ -191,9 +191,9 @@ My advice to the class was: <q>The more you are sincerely curious about your pro
  <xi:include  href="sec_Pr_06.ptx"/>
  <xi:include  href="sec_Pr_07.ptx"/>
  <xi:include  href="sec_Pr_08.ptx"/>
-<xi:include  href="sec_Pr_09.ptx"/>
+<xi:include  href="sec_Pr_09.ptx"/-->
  <xi:include  href="sec_Pr_10.ptx"/>
- <xi:include  href="sec_Pr_11.ptx"/>
+ <!--xi:include  href="sec_Pr_11.ptx"/>
  <xi:include  href="sec_Pr_12.ptx"/>
  <xi:include  href="sec_Pr_13.ptx"/>
  <xi:include  href="sec_Pr_14.ptx"/>
@@ -203,7 +203,7 @@ My advice to the class was: <q>The more you are sincerely curious about your pro
  <xi:include  href="sec_Pr_18.ptx"/>
  <xi:include  href="sec_Pr_19.ptx"/>
  <xi:include  href="sec_Pr_20.ptx"/>
-  <xi:include  href="sec_Pr_21.ptx"/>
+  <xi:include  href="sec_Pr_21.ptx"/-->
   
    </book> 
 </pretext>

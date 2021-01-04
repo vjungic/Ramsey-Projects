@@ -6,12 +6,12 @@
 <title>Project by:  <em>Wenben Cai</em>, <em>Xuan Liao</em>, <em>Heifeng Zhao</em>, and  <em>Yupeng Zhao</em></title>
 </introduction>
 <p></p>
-<p><m>\textbf{Summary:}</m> Our group chose to write a software program that is related to Ramsey?s theorem. The main goal of this program is to serve as an educational tool for students who are interested in Ramsey's theorem and Ramsey numbers but do not possess a coherent understanding of the concept.
+<p><m>\textbf{Summary:}</m> Our group chose to write a software program that is related to Ramsey's theorem. The main goal of this program is to serve as an educational tool for students who are interested in Ramsey's theorem and Ramsey numbers but do not possess a coherent understanding of the concept.
 </p>
 <p>
-The program can be divided into several parts. It consists of an introduction, a part that finds an upper bound of a Ramsey number $R(s,t)$ with user-provided $s$ and $t$ values, a part that finds a lower bound of $R(s,t)$, a part that estimates the time required to find an exact value for $R(s,t)$, and a conclusion.</p>
+The program can be divided into several parts. It consists of an introduction, a part that finds an upper bound of a Ramsey number <m>R(s,t)</m> with user-provided <m>s</m> and <m>t</m> values, a part that finds a lower bound of <m>R(s,t)</m>, a part that estimates the time required to find an exact value for <m>R(s,t)</m>, and a conclusion.</p>
 <p> Formulas that are derived using induction and the
-probability principle are applied in places calculating the tentative bounds of $R(s,t)$ and the program will construct an environment where users can use these formulas to find the bounds on their own and later check against the program for correctness.
+probability principle are applied in places calculating the tentative bounds of <m>R(s,t)</m> and the program will construct an environment where users can use these formulas to find the bounds on their own and later check against the program for correctness.
 
 </p>
 

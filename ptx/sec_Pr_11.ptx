@@ -4,7 +4,7 @@
 <title>Project by:  <em>Rashid Barket</em>, <em>Arpit Kaur</em>, <em>Michael Stephen Paulgaard</em>, and  <em>Ompreet Kaur Sarang</em></title>
 
 <p></p>
-<p><m>\textbf{Summary:}</m> Our project is focused on enhancing the course notes provided by Dr. Jungic. We are doing so in two methods: The first method is to add exercises to all the chapters. The purpose of adding exercises to this project is to get the reader to get hands-on practice in easy to medium level problems using ideas from Ramsey theory. The second method to enhance the course notes is to add new content to the course notes. On the recommendation of Dr. Jungic, we are writing about finding the density of planar sets without one unit distances and finding the fractional chromatic number of the plane. The purpose of the second part of the project has two objectives. The first objective is to help students understand a complicated subject like fractional chromatic numbers in a more intuitive way. Most of the students taking this class are not Math majors so we want to help these students grasp a concept that is normally intended for an audience with more mathematics experience. 
+<p><m>\textbf{Summary:}</m> Our project is focused on enhancing the course notes provided by Dr. Jungic. We are doing so in two methods: The first method is to add exercises to all the chapters. The purpose of adding exercises to this project is to get the reader to get hands-on practice in easy to medium level problems using ideas from Ramsey theory. The second method to enhance the course notes is to add new content to the course notes. On the recommendation of Dr. Jungic, we are writing about finding the density of planar sets without one unit distances and finding the fractional chromatic number of the plane. The purpose of the second part of the project has two objectives. The first objective is to help students understand a complicated subject like fractional chromatic numbers in a more intuitive way. Most of the students taking this class are not math majors so we want to help these students grasp a concept that is normally intended for an audience with more mathematics experience. 
 </p>
 </introduction>
 <section>
@@ -20,7 +20,7 @@
 
 
 <p>If <m>j\in\{0,1\}</m> then there are <m>n-j\gt 0</m> people who  have between  1 and <m>n-j-1</m> friends.</p>
-<p>By the Pigeonhole Principle there must be at least two people with the same number of friends.</p>.
+<p>By the Pigeonhole Principle there must be at least two people with the same number of friends.</p>
 
   </solution>
   </exercise>
@@ -34,7 +34,7 @@
 <solution>
 <p> 
 If there are 11 pigeons (shoes) sitting in 10 pigeonholes (one for each pair of shoes), at least one pigeonhole has 2 pigeons (so a pair of shoes) by the pigeonhole principle.
-</p>.
+</p>
 
   </solution>
   </exercise>
@@ -68,15 +68,15 @@ We consider three cases.
 </p>
    <ul>
        <li>
-       <p>Case 1: Suppose that the five vertices form a convex pentagon. Then any four of them form a convex quadrilateral.</p>
+       <p><alert>Case 1:</alert> Suppose that the five vertices form a convex pentagon. Then any four of them form a convex quadrilateral.</p>
         <p>There are five convex quadrilaterals in this case.</p>
         </li>
         <li>
-        <p> Case 2: Suppose that four points form a convex quadrilateral (say <m>A_1, A_2, A_3</m>, and <m>A_4</m> in clockwise order) which contains the fifth point <m>A_5</m> in its interior. Let <m>S</m> be the intersection of the diagonals <m>\overline{A_1A_3}</m> and <m>\overline{A_2A_4}</m> . Then the point <m>A_5</m> lies in one of the four triangles into which diagonals dissect the quadrilateral, say <m>\triangle SA_1A2</m>. Observe that the quadrilaterals <m>A_1A_5A_3A_4</m> and <m>A_2A_3A_4A_5</m> are convex but the other two are not.</p>
+        <p><alert>Case 2:</alert> Suppose that four points form a convex quadrilateral (say <m>A_1, A_2, A_3</m>, and <m>A_4</m> in clockwise order) which contains the fifth point <m>A_5</m> in its interior. Let <m>S</m> be the intersection of the diagonals <m>\overline{A_1A_3}</m> and <m>\overline{A_2A_4}</m>. Then the point <m>A_5</m> lies in one of the four triangles into which diagonals dissect the quadrilateral, say <m>\triangle SA_1A2</m>. Observe that the quadrilaterals <m>A_1A_5A_3A_4</m> and <m>A_2A_3A_4A_5</m> are convex but the other two are not.</p>
         <p>There are three convex quadrilaterals in this case.</p>
         </li>
         <li>
-        <p>Case 3: Suppose that three points (say <m>A_1, A_2, A_3</m>) form a triangle with <m>A_4</m> and <m>A_5</m> in its interior. The line <m>A_4A_5</m> intersects two of the three sides, say <m>\overline{A_1A_2}</m> and <m>\overline{A_1A_3}</m>. Then <m>A_2,A_3 A_4A_5</m> is the only convex quadrilateral.
+        <p><alert>Case 3:</alert> Suppose that three points (say <m>A_1, A_2, A_3</m>) form a triangle with <m>A_4</m> and <m>A_5</m> in its interior. The line <m>A_4A_5</m> intersects two of the three sides, say <m>\overline{A_1A_2}</m> and <m>\overline{A_1A_3}</m>. Then <m>A_2,A_3 A_4A_5</m> is the only convex quadrilateral.
 </p>
 </li>
 </ul>
@@ -98,8 +98,8 @@ Recall (Section 2.3) that, for any <m>s,t\geq 3</m>, <m>\displaystyle {s+t - 2 \
 <me>R(s, s) \leq {2s - 2 \choose s - 1} .</me>
 </p>
 <p>
-<m>\textbf{Note:}</m> For the latest developments (as of December 2020) regarding the upper bounds for a diagonal Ramsey number see this article by Ashwin Sah, an undergraduate student from MIT:  <url href="https://arxiv.org/abs/2005.09251"><q>Diagonal Ramsey via effective quasirandomness</q> </url>.    
-</p>.
+<m>\textbf{Note: }</m> For the latest developments (as of December 2020) regarding the upper bounds for a diagonal Ramsey number see this article by Ashwin Sah, an undergraduate student from MIT:  <url href="https://arxiv.org/abs/2005.09251"><q>Diagonal Ramsey via effective quasirandomness</q> </url>    
+</p>
 
   </solution>
   </exercise>
@@ -145,7 +145,7 @@ To show that <m>w(k,2,2;3)=3k</m>, it is sufficient to prove that <m>w(k,2,2;3)\
      <p>
        Note that if <m>y\lt k</m> or <m>x\gt 2k</m> then <m>d\geq k</m>, which means that there  is a sequence of at least <m>k</m> consecutive red elements between <m>y</m> and <m>x</m>. 
                </p>
-<p>Hence the only remaining case is if <m>y=k</m> and <m>x=2k</m>. Observe that, since <m>k\equiv \pm 1(\mbox{mod } 6)</m>, neither <m>k</m> nor <m>2k</m> is divisible by 3.This implies that all elements of the <m>k</m>-term arithmetic progression 
+<p>Hence the only remaining case is if <m>y=k</m> and <m>x=2k</m>. Observe that, since <m>k\equiv \pm 1(\mbox{mod } 6)</m>, neither <m>k</m> nor <m>2k</m> is divisible by 3. This implies that all elements of the <m>k</m>-term arithmetic progression 
 <me>3,3+3,\ldots, 3+3i,\ldots, 3+3(k-1)=3k</me>
 are coloured red.</p>
 
@@ -218,7 +218,7 @@ Add 3 colours to the end to produce a monochromatic 3-term arithmetic progressio
 <ul>
 <li>
 <p> 
-Since there are only two red (<m>R</m>) elements, <m>1</m> and <m>6</m>, there is no a red <m>3</m>-term arithmetic progression.
+Since there are only two red (<m>R</m>) elements, <m>1</m> and <m>6</m>, there is not a red <m>3</m>-term arithmetic progression.
 </p>
 </li>
 <li>
@@ -266,7 +266,7 @@ For example,
    <me>a(n)=|A\cap [1,n]| \leq 1+\log_{3}(n).</me>
 By definition,
     <me>\mbox{Density of } A=  \lim_{n\to\infty} \frac{a(n)}{n} \leq \lim_{n\to\infty} \frac{1+ \log_{3}(n)}{n}= 0.</me>
-    </p>.
+    </p>
 
   </solution>
   </exercise>
@@ -339,42 +339,42 @@ By definition,
 </p>
 <ul>
 <li>
-<p>Case 1: If <m>2=R,4=B,6=B</m> then <m>5=R</m> (because of the arithmetic progression <m>4,5,6</m>). This implies <m>7=B</m> (because of <m>2+5=7</m>) and <m>8=R</m> (because of the arithmetic progression <m>6,7,8</m>) and <m>10=R</m> (because of the arithmetic progression <m>4,7,10</m>), But now, <m>2,8,10</m> is a red Schur's triple.
+<p><alert>Case 1:</alert> If <m>2=R,4=B,6=B</m> then <m>5=R</m> (because of the arithmetic progression <m>4,5,6</m>). This implies <m>7=B</m> (because of <m>2+5=7</m>) and <m>8=R</m> (because of the arithmetic progression <m>6,7,8</m>) and <m>10=R</m> (because of the arithmetic progression <m>4,7,10</m>). But now, <m>2,8,10</m> is a red Schur's triple.
 </p>
 </li>
 <li>
-<p>Case 2: If <m>2=B,4=R,6=B</m> then <m>10=R</m> (because of the arithmetic progression <m>2,6,10</m>). </p>
-<p>Now, if <m>3=B</m> then <m>1=R</m> (because of the arithmetic progression <m>1,2,3</m>) and <m>9=B</m> (because of <m>1+9=10</m>.) But then <m>3,6,9</m> is a blue arithmetic progression.</p>
+<p><alert>Case 2:</alert> If <m>2=B,4=R,6=B</m> then <m>10=R</m> (because of the arithmetic progression <m>2,6,10</m>). </p>
+<p>Now, if <m>3=B</m> then <m>1=R</m> (because of the arithmetic progression <m>1,2,3</m>) and <m>9=B</m> (because of <m>1+9=10</m>). But then <m>3,6,9</m> is a blue arithmetic progression.</p>
 <p>If <m>3=R</m> then <m>7=B</m> (because of <m>3+4=7</m>) and <m>5=R</m> (because of the arithmetic progression <m>5,6,7</m>) and <m>8=R</m> (because of the arithmetic progression <m>6,7,8</m>). But then <m>3+5=8</m> is a red Schur's triple.
 </p>
 </li>
 <li>
-<p>Case 3: If <m>2=B,4=B,6=R</m> then <m>3=R</m> (because of the arithmetic progression <m>2,3,4</m>). It follows that <m>9=B</m> (because of <m>3+6=9</m>). </p>
-<p>Now, if <m>1=R</m> then <m>5=B</m> (because of <m>1+5=6</m>) and <m>7=B</m> (because of <m>1+6=7</m>.) But then <m>5,7,9</m> is a blue arithmetic progression.</p>
-<p>If <m>1=B</m> then <m>5=R</m> (because of the arithmetic progression <m>1,5,9</m>) and <m>7=B</m> (because of <m>1+6=7</m>.) Also, <m>8=B</m> (because of <m>3+5=8</m>). This implies  <m>7=R</m> (because of the arithmetic progression <m>7,8,9</m>) and then 
+<p><alert>Case 3:</alert> If <m>2=B,4=B,6=R</m> then <m>3=R</m> (because of the arithmetic progression <m>2,3,4</m>). It follows that <m>9=B</m> (because of <m>3+6=9</m>). </p>
+<p>Now, if <m>1=R</m> then <m>5=B</m> (because of <m>1+5=6</m>) and <m>7=B</m> (because of <m>1+6=7</m>). But then <m>5,7,9</m> is a blue arithmetic progression.</p>
+<p>If <m>1=B</m> then <m>5=R</m> (because of the arithmetic progression <m>1,5,9</m>) and <m>7=B</m> (because of <m>1+6=7</m>). Also, <m>8=B</m> (because of <m>3+5=8</m>). This implies  <m>7=R</m> (because of the arithmetic progression <m>7,8,9</m>) and then 
 <m>10=R</m> (because of the arithmetic progression <m>8,9,10</m>). Now, <m>3+7=10</m> is a red Schur's triple.
 </p>
 </li>
 <li>
-<p>Case 4: Let <m>2=R,4=R,6=B</m>. </p>
-<p>Now, if <m>3=R</m> then <m>5=B</m> (because of <m>2+3=5</m>) and <m>7=B</m> (because of <m>3+4=7</m>.) But then <m>5,6,7</m> is a blue arithmetic progression.</p>
+<p><alert>Case 4:</alert> Let <m>2=R,4=R,6=B</m>. </p>
+<p>Now, if <m>3=R</m> then <m>5=B</m> (because of <m>2+3=5</m>) and <m>7=B</m> (because of <m>3+4=7</m>) But then <m>5,6,7</m> is a blue arithmetic progression.</p>
 <p>If <m>3=B</m> then <m>9=R</m> (because of the arithmetic progression <m>3,6,9</m>) and <m>5=B</m> (because of <m>4+5=9</m>) and <m>7=B</m> (because of <m>2+7=9</m>). Now, <m>5,6,7</m> is a blue arithmetic progression.
 </p>
 </li>
 <li>
-<p>Case 5: If <m>2=R,4=B,6=R</m> then <m>8=B</m> (because of <m>2+6=8</m>). </p>
-<p>Now, if <m>5=R</m> then <m>1=B</m> (because of <m>1+5=6</m>), <m>3=B</m> (because of <m>2+3=5</m>. and <m>7=B</m> (because of <m>2+5=7</m>.) But then <m>1,4,7</m> is a blue arithmetic progression.</p>
+<p><alert>Case 5:</alert> If <m>2=R,4=B,6=R</m> then <m>8=B</m> (because of <m>2+6=8</m>). </p>
+<p>Now, if <m>5=R</m> then <m>1=B</m> (because of <m>1+5=6</m>), <m>3=B</m> (because of <m>2+3=5</m>). and <m>7=B</m> (because of <m>2+5=7</m>). But then <m>1,4,7</m> is a blue arithmetic progression.</p>
 <p>If <m>5=B</m> then <m>3=R</m> (because of the arithmetic progression <m>3,4,5</m>) and <m>1=B</m> (because of <m>1+2=3</m>) and <m>7=R</m> (because of  the arithmetic progression <m>1,4,7</m>). Now, if <m>9=B</m> (because of <m>2+7=9</m>), then <m>1,5,9</m> is a blue arithmetic progression.
 </p>
 </li>
 <li>
-<p>Case 5: If <m>2=B,4=R,6=R</m> then <m>10=B</m> (because of <m>4+6=10</m>). </p>
-<p>Now, if <m>3=R</m> then <m>1=B</m> (because of <m>1+3=4</m>), <m>7=B</m> (because of <m>3+4=7</m>. and <m>9=B</m> (because of <m>3+6=9</m>.) It follows that <m>8=R</m> (because of the arithmetic progression <m>8,9,10</m>) and <m>5=B</m> (because of <m>3+5=8</m>). But then <m>1,5,9</m> is a blue arithmetic progression.</p>
+<p><alert>Case 6:</alert> If <m>2=B,4=R,6=R</m> then <m>10=B</m> (because of <m>4+6=10</m>). </p>
+<p>Now, if <m>3=R</m> then <m>1=B</m> (because of <m>1+3=4</m>), <m>7=B</m> (because of <m>3+4=7</m>. and <m>9=B</m> (because of <m>3+6=9</m>). It follows that <m>8=R</m> (because of the arithmetic progression <m>8,9,10</m>) and <m>5=B</m> (because of <m>3+5=8</m>). But then <m>1,5,9</m> is a blue arithmetic progression.</p>
 <p>If <m>3=B</m> then <m>1=R</m> (because of the arithmetic progression <m>1,2,3</m>) and <m>5=B</m> (because of <m>1+4=5</m>) and <m>7=B</m> (because of <m>1+6=7</m>) . But then <m>3,5,7</m> is a blue arithmetic progression.
 </p>
 </li>
 </ul>
-Therefore, it is impossible to colour <m>[1,10]</m> red and blue and to avoid a red Schur's triple or a blue <m>3</m>-term arithmetic progression.
+<p>Therefore, it is impossible to colour <m>[1,10]</m> red and blue and to avoid a red Schur's triple or a blue <m>3</m>-term arithmetic progression.</p>
   </solution>
   </exercise>
 
@@ -562,7 +562,7 @@ Let <m>c</m> be any <m>2</m>-colouring of <m>A^2</m>. Consider the set <m>A^\pri
  <exercise>
  <title>Monochromatic combinatorial lines</title>
 <statement>
-<p> For what values of <m>n>1</m> any <m>2</m>-colouring of <m>[1, n]^2</m> will always contains a monochromatic combinatorial line with length <m>n</m>? </p>
+<p> For what values of <m>n>1</m> will any <m>2</m>-colouring of <m>[1, n]^2</m> always contains a monochromatic combinatorial line with length <m>n</m>? </p>
 </statement>
 <solution>
 <p>In <xref ref="ex_HJ2-2">Exercise</xref>  we have established that this is true for <m>n=2</m>.</p>
@@ -729,7 +729,7 @@ But can we do better? If we place three colours in each vertex, we find that we 
     </image>
 </figure>
 
-<p>In fact, it is known that the fractional chromatic number of the Moserr spindle is 3.5. This is because the Moser spindle has 7 vertices and the independence number 2. This was first observed in 1992 by David Fisher and Daniel Ullman.</p>
+<p>In fact, it is known that the fractional chromatic number of the Moser spindle is 3.5. This is because the Moser spindle has 7 vertices and the independence number 2. This was first observed in 1992 by David Fisher and Daniel Ullman.</p>
 
 <figure xml:id="fig_Moser-frac-7-2">
     <caption>A graph isomorphic to the Moser spindle together with its proper <m>7/2</m> colouring </caption>
@@ -815,7 +815,7 @@ distance 1. <url href="https://arxiv.org/abs/1810.00960">https://arxiv.org/abs/1
 <section>
 <title>Density of planar sets avoiding unit distance</title>
 <p></p>
-<p> The density of a planar set avoiding unit distances is a concept that has been studied for many decades and was first proposed by Leo Moser. The question that still trills mathematicians is: <q>What is <m>m_{1}(\mathbb{R}^2)</m>, the maximum density of a measurable set in the plane that does not contain a unit-distance pair?</q> 
+<p> The density of a planar set avoiding unit distances is a concept that has been studied for many decades and was first proposed by Leo Moser. The question that still thrills mathematicians is: <q>what is <m>m_{1}(\mathbb{R}^2)</m>, the maximum density of a measurable set in the plane that does not contain a unit-distance pair?</q> 
 </p>
 <p>
 The problem was popularized by Erd&#337;s  who stated that it <q>seems likely</q> that <m>m_{1}(\mathbb{R}^2)</m> has an upper bound of <m>1/4</m>.  </p>
@@ -946,7 +946,7 @@ Since this is true for any triangle in the this particular triangulation of the 
 </latex-image>
     </image>
 </figure>
-<p>Observe that the area of each blue circle takes <m>\frac{0.5^2\pi}{\pi}=\frac{1}{4}</m> of the area of the yellow circle. Hence  the density of the set covered by blue circles in the Euclidean plane is equal to one quarter of the density of the set covered by yellow circles</p>.
+<p>Observe that the area of each blue circle takes <m>\frac{0.5^2\pi}{\pi}=\frac{1}{4}</m> of the area of the yellow circle. Hence  the density of the set covered by blue circles in the Euclidean plane is equal to one quarter of the density of the set covered by yellow circles</p>
 <p>
 In other words,
 <me>m_1(\mathbb{R}^2)\gt \frac{1}{4}\cdot 0.9069\approx 0.2267.</me>
@@ -958,7 +958,7 @@ The history of finding the upper and lower bounds of the density of planar sets 
 <p>
 In 2010 Oliveira Filho and Vallentin used a combination of linear programming and Fourier analysis to prove <m>m_{1}(\mathbb{R}^2) \leq 0.268</m>. 
 </p>
-<p>In 2020  Bellitto, P&#234;cher, and  S&#233;dillot studied the fractional number of the plane together with the density of the sets that avoid unit distances to show that <m>m_{1}(\mathbb{R}^2) \leq 0.25646</m>. The best current known upper bound is <m>0.25442</m> found by Gergely Ambrus and M&#225;t&#234; Matolcsi in their 2020 paper <q>Density Estimates of 1-Avoiding Sets Via Higher Order Correlations</q>. </p>
+<p>In 2020  Bellitto, P&#234;cher, and  S&#233;dillot studied the fractional number of the plane together with the density of the sets that avoid unit distances to show that <m>m_{1}(\mathbb{R}^2) \leq 0.25646</m>. The best current known upper bound is <m>0.25442</m> found by Gergely Ambrus and M&#225;t&#234; Matolcsi in their 2020 paper <url href="https://arxiv.org/abs/1809.05453">Density Estimates of 1-Avoiding Sets Via Higher Order Correlations</url>. </p>
 
 <p>We are getting closer and closer to Erd&#337;s conjecture that  <m>m_{1}(\mathbb{R}^2)\lt 0.25</m> many decades ago!</p>
 

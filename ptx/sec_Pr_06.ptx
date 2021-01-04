@@ -139,7 +139,7 @@
 </table>
 
 where each row shows which LEDs have the same colour as the LED to the corresponding row. </p>
-<p>From here we will be able to determine which 3 LEDs are monochromatic by looking at which 3 LEDs share a 1, as well as which 3 LEDs share a 0.  From this we will also be able to see if there are any monochromatic-4?s, monochromic-5?s and so on in the colouring of the graph. Once the monochromatic sets of the connecting LEDs are determined we will light the connecting LEDs a single colour showing what the monochromatic set is. The main goal will be to show all the different monochromatic sets that are part of that specific graph colouring. We will also be 3D printing a shroud to hold the LEDs in a hexagonal shape as well as to hide the Arduino unit and the wiring. 
+<p>From here we will be able to determine which 3 LEDs are monochromatic by looking at which 3 LEDs share a 1, as well as which 3 LEDs share a 0.  From this we will also be able to see if there are any monochromatic-4's, monochromic-5's and so on in the colouring of the graph. Once the monochromatic sets of the connecting LEDs are determined we will light the connecting LEDs a single colour showing what the monochromatic set is. The main goal will be to show all the different monochromatic sets that are part of that specific graph colouring. We will also be 3D printing a shroud to hold the LEDs in a hexagonal shape as well as to hide the Arduino unit and the wiring. 
 
 </p>
 
@@ -153,5 +153,5 @@ where each row shows which LEDs have the same colour as the LED to the correspon
 
 <p>
 </p>
-<p><m>\textbf{Note:}</m> We have created a code in C++ which can be easily ported over to the Arduino IDE. The code can solve the matrix for the monochromatic-3's and 4's and is able to show the vertices in a list. </p>
+<p><m>\textbf{Note: }</m> We have created a code in C++ which can be easily ported over to the Arduino IDE. The code can solve the matrix for the monochromatic-3's and 4's and is able to show the vertices in a list. </p>
 </chapter>
